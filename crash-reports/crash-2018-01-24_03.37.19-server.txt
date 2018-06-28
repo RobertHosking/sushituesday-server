@@ -1,0 +1,338 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 1/24/18, 3:37 AM
+Description: Watching Server
+
+java.lang.Error
+	at java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes0(Native Method)
+	at java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:240)
+	at java.base@9.0.1/java.io.File.exists(File.java:820)
+	at org.dynmap.storage.MapStorage.getStandaloneFile(MapStorage.java:311)
+	at org.dynmap.JsonFileClientUpdateComponent.handleWebChat(JsonFileClientUpdateComponent.java:373)
+	at org.dynmap.JsonFileClientUpdateComponent$1.run(JsonFileClientUpdateComponent.java:152)
+	at app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53)
+	at app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
+	at app//net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:690)
+	at app//net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371)
+	at app//net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651)
+	at app//net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555)
+	at java.base@9.0.1/java.lang.Thread.run(Thread.java:844)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes0(Native Method)
+	at java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:240)
+	at java.base@9.0.1/java.io.File.exists(File.java:820)
+	at org.dynmap.storage.MapStorage.getStandaloneFile(MapStorage.java:311)
+	at org.dynmap.JsonFileClientUpdateComponent.handleWebChat(JsonFileClientUpdateComponent.java:373)
+	at org.dynmap.JsonFileClientUpdateComponent$1.run(JsonFileClientUpdateComponent.java:152)
+	at app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53)
+	at app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
+	at app//net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:690)
+	at app//net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371)
+	at app//net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651)
+
+-- Thread Dump --
+Details:
+	Threads: "pool-6-thread-3" prio=5 Id=246 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5a8d1081
+	at java.base@9.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5a8d1081
+	at java.base@9.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@9.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2104)
+	at java.base@9.0.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+	at java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+	at java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base@9.0.1/java.lang.Thread.run(Thread.java:844)
+
+
+"File IO Thread" prio=1 Id=244 TIMED_WAITING
+	at java.base@9.0.1/java.lang.Thread.sleep(Native Method)
+	at app//net.minecraft.server.v1_12_R1.FileIOThread.c(SourceFile:51)
+	at app//net.minecraft.server.v1_12_R1.FileIOThread.run(SourceFile:30)
+	at java.base@9.0.1/java.lang.Thread.run(Thread.java:844)
+
+
+"Server Watchdog" daemon prio=5 Id=54 RUNNABLE
+	at java.management@9.0.1/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@9.0.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:479)
+	at app//net.minecraft.server.v1_12_R1.ThreadWatchdog.run(SourceFile:43)
+	at java.base@9.0.1/java.lang.Thread.run(Thread.java:844)
+
+
+"pool-6-thread-2 Acceptor0 SelectChannelConnector@0.0.0.0:8123" prio=5 Id=53 RUNNABLE (in native)
+	at java.base@9.0.1/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at java.base@9.0.1/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:424)
+	at java.base@9.0.1/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:252)
+	-  locked java.lang.Object@544af5a0
+	at org.dynmap.jetty.server.nio.SelectChannelConnector.accept(SelectChannelConnector.java:109)
+	at org.dynmap.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:938)
+	at java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base@9.0.1/java.lang.Thread.run(Thread.java:844)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@2bd89abb
+
+
+"pool-6-thread-1 Selector0" prio=5 Id=52 RUNNABLE (in native)
+	at java.base@9.0.1/sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at java.base@9.0.1/sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:265)
+	at java.base@9.0.1/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:92)
+	at java.base@9.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	-  locked sun.nio.ch.Util$2@50757bf1
+	-  locked java.util.Collections$UnmodifiableSet@1577ff9b
+	-  locked sun.nio.ch.EPollSelectorImpl@27ccecac
+	at java.base@9.0.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at org.dynmap.jetty.io.nio.SelectorManager$SelectSet.doSelect(SelectorManager.java:569)
+	at org.dynmap.jetty.io.nio.SelectorManager$1.run(SelectorManager.java:290)
+	at java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@53701207
+
+
+"HashSessionScavenger-0" daemon prio=5 Id=51 TIMED_WAITING on java.util.TaskQueue@2428ea00
+	at java.base@9.0.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@2428ea00
+	at java.base@9.0.1/java.util.TimerThread.mainLoop(Timer.java:553)
+	at java.base@9.0.1/java.util.TimerThread.run(Timer.java:506)
+
+
+"Dynmap Render Thread" daemon prio=5 Id=48 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5f79a787
+	at java.base@9.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5f79a787
+	at java.base@9.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@9.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2104)
+	at java.base@9.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1131)
+	at java.base@9.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:848)
+	at java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+	at java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	...
+
+
+"Dynmap Render Thread" daemon prio=5 Id=47 RUNNABLE (in native)
+	at java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes0(Native Method)
+	at java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:240)
+	at java.base@9.0.1/java.io.File.exists(File.java:820)
+	at org.dynmap.storage.MapStorage.setStandaloneFile(MapStorage.java:259)
+	at org.dynmap.JsonFileClientUpdateComponent$FileProcessor.run(JsonFileClientUpdateComponent.java:88)
+	at org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$1.run(MapManager.java:190)
+	at org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$2.run(MapManager.java:206)
+	at java.base@9.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@6c7da6e0
+
+
+"Dynmap Render Thread" daemon prio=5 Id=46 WAITING on org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftFuture@755800d4
+	at java.base@9.0.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftFuture@755800d4
+	at app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftFuture.get(CraftFuture.java:50)
+	at app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftFuture.get(CraftFuture.java:38)
+	at org.dynmap.MapManager$CheckWorldTimes.run(MapManager.java:804)
+	at org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$2.run(MapManager.java:206)
+	at java.base@9.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base@9.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@9.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:299)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@144f269c
+
+
+"Thread-9" prio=5 Id=45 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@35313b5f
+	at java.base@9.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@35313b5f
+	at java.base@9.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@9.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2062)
+	at java.base@9.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at org.dynmap.AsynchronousQueue.pop(AsynchronousQueue.java:44)
+	at org.dynmap.AsynchronousQueue.running(AsynchronousQueue.java:128)
+	at org.dynmap.AsynchronousQueue.access$000(AsynchronousQueue.java:9)
+	at org.dynmap.AsynchronousQueue$1.run(AsynchronousQueue.java:83)
+	...
+
+
+"Thread-8" prio=5 Id=44 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@35313b5f
+	at java.base@9.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@35313b5f
+	at java.base@9.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@9.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2062)
+	at java.base@9.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at org.dynmap.AsynchronousQueue.pop(AsynchronousQueue.java:44)
+	at org.dynmap.AsynchronousQueue.running(AsynchronousQueue.java:128)
+	at org.dynmap.AsynchronousQueue.access$000(AsynchronousQueue.java:9)
+	at org.dynmap.AsynchronousQueue$1.run(AsynchronousQueue.java:83)
+	...
+
+
+"MainThread/SERVER" prio=5 Id=42 TIMED_WAITING
+	at java.base@9.0.1/java.lang.Thread.sleep(Native Method)
+	at de.bananaco.bpermissions.util.loadmanager.MainThread.check(MainThread.java:57)
+	-  locked de.bananaco.bpermissions.util.loadmanager.MainThread@56aaaf13
+	at de.bananaco.bpermissions.util.loadmanager.MainThread.run(MainThread.java:26)
+
+
+"Timer-0" prio=5 Id=32 TIMED_WAITING on java.util.TaskQueue@447d6fde
+	at java.base@9.0.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@447d6fde
+	at java.base@9.0.1/java.util.TimerThread.mainLoop(Timer.java:553)
+	at java.base@9.0.1/java.util.TimerThread.run(Timer.java:506)
+
+
+"AutoSaveWorld AutoConsoleCommandThread" prio=5 Id=31 TIMED_WAITING
+	at java.base@9.0.1/java.lang.Thread.sleep(Native Method)
+	at autosaveworld.utils.Threads$SIntervalTaskThread.run(Threads.java:57)
+
+
+"AutoSaveWorld CrashRestartThread" prio=5 Id=30 TIMED_WAITING
+	at java.base@9.0.1/java.lang.Thread.sleep(Native Method)
+	at autosaveworld.utils.Threads$SIntervalTaskThread.run(Threads.java:57)
+
+
+"AutoSaveWorld AutoRestartThread" prio=5 Id=29 TIMED_WAITING
+	at java.base@9.0.1/java.lang.Thread.sleep(Native Method)
+	at autosaveworld.utils.Threads$SIntervalTaskThread.run(Threads.java:57)
+
+
+"AutoSaveWorld AutoPurgeThread" prio=5 Id=28 TIMED_WAITING
+	at java.base@9.0.1/java.lang.Thread.sleep(Native Method)
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:111)
+
+
+"AutoSaveWorld AutoBackupThread" prio=5 Id=27 TIMED_WAITING
+	at java.base@9.0.1/java.lang.Thread.sleep(Native Method)
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:111)
+
+
+"AutoSaveWorld AutoSaveThread" prio=5 Id=26 TIMED_WAITING
+	at java.base@9.0.1/java.lang.Thread.sleep(Native Method)
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:111)
+
+
+"Java2D Disposer" daemon prio=10 Id=24 WAITING on java.lang.ref.ReferenceQueue$Lock@71169925
+	at java.base@9.0.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@71169925
+	at java.base@9.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.base@9.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:172)
+	at java.desktop@9.0.1/sun.java2d.Disposer.run(Disposer.java:144)
+	at java.base@9.0.1/java.lang.Thread.run(Thread.java:844)
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=23 RUNNABLE (in native)
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:235)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:252)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at java.base@9.0.1/java.lang.Thread.run(Thread.java:844)
+
+
+"Thread-3" prio=5 Id=22 RUNNABLE
+	at java.base@9.0.1/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base@9.0.1/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base@9.0.1/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base@9.0.1/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	at java.base@9.0.1/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base@9.0.1/java.lang.Runtime.exec(Runtime.java:635)
+	at java.base@9.0.1/java.lang.Runtime.exec(Runtime.java:494)
+	at app//org.bukkit.craftbukkit.libs.jline.internal.TerminalLineSettings.exec(TerminalLineSettings.java:196)
+	...
+
+
+"DestroyJavaVM" prio=5 Id=20 RUNNABLE
+
+
+"Server thread" prio=5 Id=18 RUNNABLE (in native)
+	at java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes0(Native Method)
+	at java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:240)
+	at java.base@9.0.1/java.io.File.exists(File.java:820)
+	at org.dynmap.storage.MapStorage.getStandaloneFile(MapStorage.java:311)
+	at org.dynmap.JsonFileClientUpdateComponent.handleWebChat(JsonFileClientUpdateComponent.java:373)
+	at org.dynmap.JsonFileClientUpdateComponent$1.run(JsonFileClientUpdateComponent.java:152)
+	at app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53)
+	at app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
+	...
+
+
+"Server Infinisleeper" daemon prio=5 Id=19 TIMED_WAITING
+	at java.base@9.0.1/java.lang.Thread.sleep(Native Method)
+	at app//net.minecraft.server.v1_12_R1.DedicatedServer$1.run(DedicatedServer.java:59)
+
+
+"NonBlockingInputStreamThread" daemon prio=5 Id=16 WAITING on org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream@4d41bf9b
+	at java.base@9.0.1/java.lang.Object.wait(Native Method)
+	-  waiting on org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream@4d41bf9b
+	at app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
+	at java.base@9.0.1/java.lang.Thread.run(Thread.java:844)
+
+
+"Snooper Timer" daemon prio=5 Id=14 TIMED_WAITING on java.util.TaskQueue@4e104317
+	at java.base@9.0.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@4e104317
+	at java.base@9.0.1/java.util.TimerThread.mainLoop(Timer.java:553)
+	at java.base@9.0.1/java.util.TimerThread.run(Timer.java:506)
+
+
+"Common-Cleaner" daemon prio=8 Id=8 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@61bcd694
+	at java.base@9.0.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@61bcd694
+	at java.base@9.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.base@9.0.1/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@9.0.1/java.lang.Thread.run(Thread.java:844)
+	at java.base@9.0.1/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:122)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@24a6a437
+	at java.base@9.0.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@24a6a437
+	at java.base@9.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.base@9.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:172)
+	at java.base@9.0.1/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@9.0.1/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@9.0.1/java.lang.ref.Reference.processPendingReferences(Reference.java:174)
+	at java.base@9.0.1/java.lang.ref.Reference.access$000(Reference.java:44)
+	at java.base@9.0.1/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:138)
+
+
+
+Stacktrace:
+	at net.minecraft.server.v1_12_R1.ThreadWatchdog.run(SourceFile:59)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.14.12-x86_64-linode92
+	Java Version: 9.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 116413160 bytes (111 MB) / 384528384 bytes (366 MB) up to 8303607808 bytes (7918 MB)
+	JVM Flags: 1 total; -Xmx8G
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	CraftBukkit Information: 
+   Running: CraftBukkit version git-Bukkit-a3decfd (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT) true
+   Plugins: { AutoSaveWorld v4.15 autosaveworld.core.AutoSaveWorld [_Shevchik_], WorldEdit v6.1.8-SNAPSHOT;cd4729f com.sk89q.worldedit.bukkit.WorldEditPlugin [], PluginConstructorAPI v1.0.11 me.zombie_striker.pluginconstructor.PluginConstructorAPI [Zombie_Striker], Shopkeepers v1.83 com.nisovin.shopkeepers.ShopkeepersPlugin [nisovin, blablubbabc], SerialKey v0.3 fr.skyost.serialkey.SerialKey [Skyost], ClearLag v2.9.7 me.minebuilders.clearlag.Clearlag [bob7l], AutoMessageDisplayer v0.11 com.vandendaelen.automessagedisplayer.AutoMessageDisplayer [LotuxPunk], PlugMan v2.1.4 com.rylinaux.plugman.PlugMan [rylinaux], mcMMOHorse v4.3.7 com.blueskullgames.horserpg.HorseRPG [GetGoodKid, Zombie_Striker], NickNamesX v3.0 pw.ollie.nicknames.NickNames [], mcMMO v1.5.09-SNAPSHOT com.gmail.nossr50.mcMMO [nossr50, GJ, NuclearW, bm01, Glitchfinder, TfT_02, t00thpick1, Riking], ServerListPlus v3.4.8 net.minecrell.serverlistplus.bukkit.BukkitPlugin [Minecrell <https://github.com/Minecrell>], Vault v1.5.6-b49 net.milkbowl.vault.Vault [cereal, Sleaker, mung3r], KeepDeathDrop v1.0.3 me.minebuilders.clearlagitem.DeathDrop [bob7l], bPermissions v2.12 de.bananaco.bpermissions.imp.Permissions [codename_B], LockSecurity v2.0.0 me.choco.locksecurity.LockSecurity [2008Choco], dynmap v2.5-Dev201706100405 org.dynmap.bukkit.DynmapPlugin [mikeprimm],}
+   Warnings: DEFAULT
+   Reload Count: 0
+   Threads: { RUNNABLE DestroyJavaVM: [], TIMED_WAITING process reaper: [java.base@9.0.1/jdk.internal.misc.Unsafe.park(Native Method), java.base@9.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234), java.base@9.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462), java.base@9.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361), java.base@9.0.1/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], RUNNABLE Signal Dispatcher: [], TIMED_WAITING AutoSaveWorld AutoPurgeThread: [java.base@9.0.1/java.lang.Thread.sleep(Native Method), autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:111)], RUNNABLE Server Watchdog: [java.base@9.0.1/java.lang.Thread.dumpThreads(Native Method), java.base@9.0.1/java.lang.Thread.getAllStackTraces(Thread.java:1705), app//org.bukkit.craftbukkit.v1_12_R1.CraftCrashReport.call(CraftCrashReport.java:30), app//net.minecraft.server.v1_12_R1.CrashReportSystemDetails.a(SourceFile:78), app//net.minecraft.server.v1_12_R1.CrashReport.h(CrashReport.java:128), app//net.minecraft.server.v1_12_R1.CrashReport.<init>(CrashReport.java:35), app//net.minecraft.server.v1_12_R1.ThreadWatchdog.run(SourceFile:57), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], TIMED_WAITING AutoSaveWorld AutoBackupThread: [java.base@9.0.1/java.lang.Thread.sleep(Native Method), autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:111)], RUNNABLE Netty Epoll Server IO #0: [app//io.netty.channel.epoll.Native.epollWait0(Native Method), app//io.netty.channel.epoll.Native.epollWait(Native.java:114), app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:235), app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:252), app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], TIMED_WAITING Timer-0: [java.base@9.0.1/java.lang.Object.wait(Native Method), java.base@9.0.1/java.util.TimerThread.mainLoop(Timer.java:553), java.base@9.0.1/java.util.TimerThread.run(Timer.java:506)], TIMED_WAITING HashSessionScavenger-0: [java.base@9.0.1/java.lang.Object.wait(Native Method), java.base@9.0.1/java.util.TimerThread.mainLoop(Timer.java:553), java.base@9.0.1/java.util.TimerThread.run(Timer.java:506)], RUNNABLE pool-6-thread-2 Acceptor0 SelectChannelConnector@0.0.0.0:8123: [java.base@9.0.1/sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method), java.base@9.0.1/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:424), java.base@9.0.1/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:252), org.dynmap.jetty.server.nio.SelectChannelConnector.accept(SelectChannelConnector.java:109), org.dynmap.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:938), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], WAITING Java2D Disposer: [java.base@9.0.1/java.lang.Object.wait(Native Method), java.base@9.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151), java.base@9.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:172), java.desktop@9.0.1/sun.java2d.Disposer.run(Disposer.java:144), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], WAITING Thread-8: [java.base@9.0.1/jdk.internal.misc.Unsafe.park(Native Method), java.base@9.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194), java.base@9.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2062), java.base@9.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435), org.dynmap.AsynchronousQueue.pop(AsynchronousQueue.java:44), org.dynmap.AsynchronousQueue.running(AsynchronousQueue.java:128), org.dynmap.AsynchronousQueue.access$000(AsynchronousQueue.java:9), org.dynmap.AsynchronousQueue$1.run(AsynchronousQueue.java:83), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], TIMED_WAITING AutoSaveWorld AutoConsoleCommandThread: [java.base@9.0.1/java.lang.Thread.sleep(Native Method), autosaveworld.utils.Threads$SIntervalTaskThread.run(Threads.java:57)], TIMED_WAITING AutoSaveWorld AutoSaveThread: [java.base@9.0.1/java.lang.Thread.sleep(Native Method), autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:111)], TIMED_WAITING Dynmap Render Thread: [java.base@9.0.1/jdk.internal.misc.Unsafe.park(Native Method), java.base@9.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234), java.base@9.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2104), java.base@9.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1131), java.base@9.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:848), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], WAITING Finalizer: [java.base@9.0.1/java.lang.Object.wait(Native Method), java.base@9.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151), java.base@9.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:172), java.base@9.0.1/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)], WAITING NonBlockingInputStreamThread: [java.base@9.0.1/java.lang.Object.wait(Native Method), app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], WAITING Thread-3: [java.base@9.0.1/jdk.internal.misc.Unsafe.park(Native Method), java.base@9.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194), java.base@9.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2062), java.base@9.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435), app//com.mojang.util.QueueLogAppender.getNextLogEvent(QueueLogAppender.java:77), app//org.bukkit.craftbukkit.v1_12_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:27), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], TIMED_WAITING Server Infinisleeper: [java.base@9.0.1/java.lang.Thread.sleep(Native Method), app//net.minecraft.server.v1_12_R1.DedicatedServer$1.run(DedicatedServer.java:59)], TIMED_WAITING Snooper Timer: [java.base@9.0.1/java.lang.Object.wait(Native Method), java.base@9.0.1/java.util.TimerThread.mainLoop(Timer.java:553), java.base@9.0.1/java.util.TimerThread.run(Timer.java:506)], WAITING Dynmap Render Thread: [java.base@9.0.1/java.lang.Object.wait(Native Method), app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftFuture.get(CraftFuture.java:50), app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftFuture.get(CraftFuture.java:38), org.dynmap.MapManager$CheckWorldTimes.run(MapManager.java:804), org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$2.run(MapManager.java:206), java.base@9.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514), java.base@9.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264), java.base@9.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:299), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], RUNNABLE Server thread: [java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes0(Native Method), java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:240), java.base@9.0.1/java.io.File.exists(File.java:820), org.dynmap.storage.MapStorage.getStandaloneFile(MapStorage.java:311), org.dynmap.JsonFileClientUpdateComponent.handleWebChat(JsonFileClientUpdateComponent.java:373), org.dynmap.JsonFileClientUpdateComponent$1.run(JsonFileClientUpdateComponent.java:152), app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53), app//org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352), app//net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:690), app//net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371), app//net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651), app//net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], TIMED_WAITING Common-Cleaner: [java.base@9.0.1/java.lang.Object.wait(Native Method), java.base@9.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151), java.base@9.0.1/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148), java.base@9.0.1/java.lang.Thread.run(Thread.java:844), java.base@9.0.1/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:122)], TIMED_WAITING pool-6-thread-3: [java.base@9.0.1/jdk.internal.misc.Unsafe.park(Native Method), java.base@9.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234), java.base@9.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2104), java.base@9.0.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], TIMED_WAITING AutoSaveWorld CrashRestartThread: [java.base@9.0.1/java.lang.Thread.sleep(Native Method), autosaveworld.utils.Threads$SIntervalTaskThread.run(Threads.java:57)], RUNNABLE Dynmap Render Thread: [java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes0(Native Method), java.base@9.0.1/java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:240), java.base@9.0.1/java.io.File.exists(File.java:820), org.dynmap.storage.MapStorage.setStandaloneFile(MapStorage.java:259), org.dynmap.JsonFileClientUpdateComponent$FileProcessor.run(JsonFileClientUpdateComponent.java:88), org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$1.run(MapManager.java:190), org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$2.run(MapManager.java:206), java.base@9.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514), java.base@9.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264), java.base@9.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:299), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], RUNNABLE Reference Handler: [java.base@9.0.1/java.lang.ref.Reference.waitForReferencePendingList(Native Method), java.base@9.0.1/java.lang.ref.Reference.processPendingReferences(Reference.java:174), java.base@9.0.1/java.lang.ref.Reference.access$000(Reference.java:44), java.base@9.0.1/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:138)], TIMED_WAITING AutoSaveWorld AutoRestartThread: [java.base@9.0.1/java.lang.Thread.sleep(Native Method), autosaveworld.utils.Threads$SIntervalTaskThread.run(Threads.java:57)], TIMED_WAITING MainThread/SERVER: [java.base@9.0.1/java.lang.Thread.sleep(Native Method), de.bananaco.bpermissions.util.loadmanager.MainThread.check(MainThread.java:57), de.bananaco.bpermissions.util.loadmanager.MainThread.run(MainThread.java:26)], WAITING Thread-9: [java.base@9.0.1/jdk.internal.misc.Unsafe.park(Native Method), java.base@9.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194), java.base@9.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2062), java.base@9.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435), org.dynmap.AsynchronousQueue.pop(AsynchronousQueue.java:44), org.dynmap.AsynchronousQueue.running(AsynchronousQueue.java:128), org.dynmap.AsynchronousQueue.access$000(AsynchronousQueue.java:9), org.dynmap.AsynchronousQueue$1.run(AsynchronousQueue.java:83), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], RUNNABLE pool-6-thread-1 Selector0: [java.base@9.0.1/sun.nio.ch.EPollArrayWrapper.epollWait(Native Method), java.base@9.0.1/sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:265), java.base@9.0.1/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:92), java.base@9.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86), java.base@9.0.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97), org.dynmap.jetty.io.nio.SelectorManager$SelectSet.doSelect(SelectorManager.java:569), org.dynmap.jetty.io.nio.SelectorManager$1.run(SelectorManager.java:290), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167), java.base@9.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)], TIMED_WAITING File IO Thread: [java.base@9.0.1/java.lang.Thread.sleep(Native Method), app//net.minecraft.server.v1_12_R1.FileIOThread.c(SourceFile:51), app//net.minecraft.server.v1_12_R1.FileIOThread.run(SourceFile:30), java.base@9.0.1/java.lang.Thread.run(Thread.java:844)],}
+   Recent tasks from 112969-112999{PluginConstructorAPI:me.zombie_striker.pluginconstructor.PluginConstructorAPI$1@108049,}
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Definitely; Server brand changed to 'CraftBukkit'
+	Type: Dedicated Server (map_server.txt)

@@ -1,0 +1,20 @@
+# 
+#                                                    #
+#              mcMMO Horses Config 4.2               #
+#                                                    #
+save-interval: 24000
+free-horse: false
+permanent-death: false
+death-timer: 120
+banish-timer: 120
+sprint-cooldown: 20
+infuriate-cooldown: 20
+groups:
+  default: 10
+  admin: -1
+enable-economy: false
+claim-cost: 500
+claim-cost-multiplier: 2
+summon-cost: 10
+banish-cost: 0
+auto-update: true

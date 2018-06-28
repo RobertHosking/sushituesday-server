@@ -1,0 +1,30 @@
+default: default
+groups:
+  default:
+    permissions:
+    - ^mcmmo.chat.partychat
+    - ^mcmmo.commands.party
+    - ^mcmmo.commands.party.accept
+    - ^mcmmo.commands.party.create
+    - ^mcmmo.commands.party.disband
+    - ^mcmmo.commands.party.expshare
+    - ^mcmmo.commands.party.help
+    - ^mcmmo.commands.party.info
+    - ^mcmmo.commands.party.invite
+    - ^mcmmo.commands.party.itemshare
+    - ^mcmmo.commands.party.join
+    - ^mcmmo.commands.party.kick
+    - ^mcmmo.commands.party.lock
+    - ^mcmmo.commands.party.owner
+    - ^mcmmo.commands.party.password
+    - ^mcmmo.commands.party.quit
+    - ^mcmmo.commands.party.rename
+    - ^mcmmo.commands.party.unlock
+    - ^mcmmo.commands.ptp
+    - ^mcmmo.commands.ptp.accept
+    - ^mcmmo.commands.ptp.acceptall
+    - ^mcmmo.commands.ptp.send
+    - ^mcmmo.commands.ptp.toggle
+    - ^mcmmo.commands.ptp.world.all
+    - ^mcmmo.party.friendlyfire
+    groups: []

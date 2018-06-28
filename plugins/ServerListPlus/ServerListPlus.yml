@@ -1,0 +1,310 @@
+
+#      _____                     __    _     _   _____ _
+#     |   __|___ ___ _ _ ___ ___|  |  |_|___| |_|  _  | |_ _ ___
+#     |__   | -_|  _| | | -_|  _|  |__| |_ -|  _|   __| | | |_ -|
+#     |_____|___|_|  \_/|___|_| |_____|_|___|_| |__|  |_|___|___|
+# 
+# ServerListPlus v3.4.8 - http://git.io/slp
+#
+# More information is available in the Wiki: http://git.io/slp-wiki
+#
+#
+# This is the section where you can customize your server status ping!
+#  - Default is the section for the status used when the player name is unknown.
+#    Personalized is used if the client has already joined the server once.
+#    Use %player% as placeholder for the player's name.
+# 
+# Features:
+#  - Description (MotD): A short status message for your server, max. 2 lines.
+#  - Players:
+#    - Hover: The player hover message that is displayed if you hover the player count.
+#    - Slots: Custom player slot formatting, see http://git.io/slp-slots
+#  - Favicon:
+#    - Use multiple server icons or the player's head as favicon, see http://git.io/oMhJlg
+#    - Possible favicon sources: Files, Folders, URLs, Heads, Helms, Encoded
+# 
+#  More features are explained in the Wiki: http://git.io/slp-config
+# 
+# Usage:
+#  - Add multiple entries for random messages.
+#  - Save the file with valid UTF-8 encoding for special characters.
+#  - Available placeholders:
+#    - Player name: %player%
+#    - Player count: %online%, %max%, %online@server% %online@world%
+#    - Random online player name: %random_player%
+--- !Status
+Default:
+  Description:
+
+    - |-
+     &6Sah, dude.
+     &bsushituesday.club&r [1/38]
+    - |-
+     &6Mine bitcoins in your dorm!
+     &bsushituesday.club&r [2/38]
+    - |-
+     &6Welcome, David.
+     &bsushituesday.club&r [3/38]
+    - |-
+     &6Bet.
+     &bsushituesday.club&r [4/38]
+    - |-
+     &6Better management than Walmart.
+     &bsushituesday.club&r [5/38]
+    - |-
+     &6Trading Silly Bandz for fidget spinner.
+     &bsushituesday.club&r [6/38]
+    - |-
+     &6United by our common enemy, lag.
+     &bsushituesday.club&r [7/38]
+    - |-
+     &6White Russian?
+     &bsushituesday.club&r [8/38]
+    - |-
+     &6There are only 2 genders.
+     &bsushituesday.club&r [9/38]
+    - |-
+     &6We downloaded more RAM!
+     &bsushituesday.club&r [10/38]
+    - |-
+     &6CHO!
+     &bsushituesday.club&r [11/38]
+    - |-
+     &6In Bro we trust.
+     &bsushituesday.club&r [12/38]
+    - |-
+     &6Welcome to Neverland!
+     &bsushituesday.club&r [13/38]
+    - |-
+     &6Only you can prevent wildfires.
+     &bsushituesday.club&r [14/38]
+    - |-
+     &6Your portal to Digital Lego!
+     &bsushituesday.club&r [15/38]
+    - |-
+     &6We ran out of good MOTDs.
+     &bsushituesday.club&r [16/38]
+    - |-
+     &6rm -rf /*
+     &bsushituesday.club&r [17/38]
+    - |-
+     &6Vietnamese sleeze
+     &bsushituesday.club&r [18/38]
+    - |-
+     &62x-EXP from MTN DEW & Doritos
+     &bsushituesday.club&r [19/38]
+    - |-
+     &6Product placement: Taco Bell
+     &bsushituesday.club&r [20/38]
+    - |-
+     &6KKK
+     &bsushituesday.club&r [21/38]
+    - |-
+     &6KK
+     &bsushituesday.club&r [22/38]
+    - |-
+     &6💩
+     &bsushituesday.club&r [23/38]
+    - |-
+     &6Stored on 3827
+     &bsushituesday.club&r [24/38]
+    - |-
+     &6800 588 2300
+     &bsushituesday.club&r [25/38]
+    - |-
+     &6I got the sauce; no ketchup. Just sauce.
+     &bsushituesday.club&r [26/38]
+    - |-
+     &6hello
+     &bsushituesday.club&r [27/38]
+    - |-
+     &6hello
+     &bsushituesday.club&r [28/38]
+    - |-
+     &6hello
+     &bsushituesday.club&r [29/38]
+    - |-
+     &6my man!
+     &bsushituesday.club&r [30/38]
+    - |-
+     &6Enter the simulation
+     &bsushituesday.club&r [31/38]
+    - |-
+     &6kit
+     &bsushituesday.club&r [32/38]
+    - |-
+     &6kit
+     &bsushituesday.club&r [33/38]
+    - |-
+     &6ewrwe
+     &bsushituesday.club&r [34/38]
+    - |-
+     &612312312
+     &bsushituesday.club&r [35/38]
+    - |-
+     &612`e12e
+     &bsushituesday.club&r [36/38]
+    - |-
+     &6sss
+     &bsushituesday.club&r [37/38]
+    - |-
+     &6wqeqwe
+     &bsushituesday.club&r [38/38]
+  Players:
+    Hover:
+    - |-
+      &aWelcome to &lA Minecraft Server&a!
+      &aCurrently &e&l%online% &aplayers are playing on our server!
+      Personalized:
+  Description:
+
+    - |-
+     &6Sah, dude.
+     &bsushituesday.club&r [1/38]
+    - |-
+     &6Mine bitcoins in your dorm!
+     &bsushituesday.club&r [2/38]
+    - |-
+     &6Welcome, David.
+     &bsushituesday.club&r [3/38]
+    - |-
+     &6Bet.
+     &bsushituesday.club&r [4/38]
+    - |-
+     &6Better management than Walmart.
+     &bsushituesday.club&r [5/38]
+    - |-
+     &6Trading Silly Bandz for fidget spinner.
+     &bsushituesday.club&r [6/38]
+    - |-
+     &6United by our common enemy, lag.
+     &bsushituesday.club&r [7/38]
+    - |-
+     &6White Russian?
+     &bsushituesday.club&r [8/38]
+    - |-
+     &6There are only 2 genders.
+     &bsushituesday.club&r [9/38]
+    - |-
+     &6We downloaded more RAM!
+     &bsushituesday.club&r [10/38]
+    - |-
+     &6CHO!
+     &bsushituesday.club&r [11/38]
+    - |-
+     &6In Bro we trust.
+     &bsushituesday.club&r [12/38]
+    - |-
+     &6Welcome to Neverland!
+     &bsushituesday.club&r [13/38]
+    - |-
+     &6Only you can prevent wildfires.
+     &bsushituesday.club&r [14/38]
+    - |-
+     &6Your portal to Digital Lego!
+     &bsushituesday.club&r [15/38]
+    - |-
+     &6We ran out of good MOTDs.
+     &bsushituesday.club&r [16/38]
+    - |-
+     &6rm -rf /*
+     &bsushituesday.club&r [17/38]
+    - |-
+     &6Vietnamese sleeze
+     &bsushituesday.club&r [18/38]
+    - |-
+     &62x-EXP from MTN DEW & Doritos
+     &bsushituesday.club&r [19/38]
+    - |-
+     &6Product placement: Taco Bell
+     &bsushituesday.club&r [20/38]
+    - |-
+     &6KKK
+     &bsushituesday.club&r [21/38]
+    - |-
+     &6KK
+     &bsushituesday.club&r [22/38]
+    - |-
+     &6💩
+     &bsushituesday.club&r [23/38]
+    - |-
+     &6Stored on 3827
+     &bsushituesday.club&r [24/38]
+    - |-
+     &6800 588 2300
+     &bsushituesday.club&r [25/38]
+    - |-
+     &6I got the sauce; no ketchup. Just sauce.
+     &bsushituesday.club&r [26/38]
+    - |-
+     &6hello
+     &bsushituesday.club&r [27/38]
+    - |-
+     &6hello
+     &bsushituesday.club&r [28/38]
+    - |-
+     &6hello
+     &bsushituesday.club&r [29/38]
+    - |-
+     &6my man!
+     &bsushituesday.club&r [30/38]
+    - |-
+     &6Enter the simulation
+     &bsushituesday.club&r [31/38]
+    - |-
+     &6kit
+     &bsushituesday.club&r [32/38]
+    - |-
+     &6kit
+     &bsushituesday.club&r [33/38]
+    - |-
+     &6ewrwe
+     &bsushituesday.club&r [34/38]
+    - |-
+     &612312312
+     &bsushituesday.club&r [35/38]
+    - |-
+     &612`e12e
+     &bsushituesday.club&r [36/38]
+    - |-
+     &6sss
+     &bsushituesday.club&r [37/38]
+    - |-
+     &6wqeqwe
+     &bsushituesday.club&r [38/38]
+  Players:
+    Hover:
+    - |-
+      &aWelcome back, &l%player%&a!
+      &aCurrently &e&l%online% &aplayers are playing on our server!
+# Stats: Enable/disable sending plugin statistics.
+# PlayerTracking: Enable/disable tracking of player names to their IP-Addresses.
+#   - Persistence can be disabled with the toggle in the Storage section.
+# Samples: Toggle using multiple player infos for the player hover message.
+#     May prevent the annoying ... and x more ... message for bigger servers
+#     DynamicPlayers is special and aligns the number with the number of
+#     random players used in placeholders.
+# Unknown: Placeholder replacement if the real value is unknown.
+# Favicon: Options for the creation / downloading of favicons:
+#  - RecursiveFolderSearch: Also search for favicons in sub directories.
+#  - SkinSource: The URL to get the Minecraft Skins from. (%s -> player name)
+#  - ResizeStrategy: The strategy used to resize too small or too big favicons.
+#      NONE (keep them as is, will probably fail), SCALE (scale them to the correct size)
+--- !Plugin
+Stats: true
+PlayerTracking:
+  Enabled: true
+  Storage: !JSONStorage
+    Enabled: true
+    SaveDelay: 5m
+Samples:
+  Multiple: false
+  DynamicPlayers: false
+Unknown:
+  PlayerName: player
+  PlayerCount: ???
+  Date: ???
+Favicon:
+  Timeout: 10s
+  RecursiveFolderSearch: false
+  ResizeStrategy: SCALE

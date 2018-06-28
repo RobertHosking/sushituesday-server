@@ -1,0 +1,21 @@
+Time: 10
+Enable: true
+Random enabled: true
+Messages:
+- Gold is currency. Time to start saving for retirement!
+- Riverbend is the spawn town; a sprawling village community.
+- Got something to get off your mind? Make a MOTD at &bsushituesday.club
+- Travel anywhere by rail from the Riverbend Central Station!
+- Campo Acosta is a horse ranch in the plains south of Riverbend.
+- Check out the live map! &bsushituesday.club/map
+- Level up and protect your horse! Do &b/h&r for more info.
+- Join our discord! &bsushituesday.club/discord
+- Visit Papi's Combat Supply Warehouse in Campo Acosta!
+- Birchwood is a mountainous and snowy region in the West; the home of Mt. David.
+- World map saved daily! &bsushituesday.club/world
+- You can buy and sell items using Shopkeepers from the Riverbend Market!
+- Lock your chests and doors! Visit &bsushituesday.club/plugins&r to learn how.
+Prefix: '[&9Info&r]'
+Min player to enable: 1
+Message on player join enabled: true
+Message on player join: Welcome to Sushi Tuesday!

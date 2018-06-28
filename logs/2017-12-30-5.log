@@ -1,0 +1,204 @@
+[02:09:54] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[02:09:54] [Server thread/INFO]: Loading properties
+[02:09:54] [Server thread/INFO]: Default game type: SURVIVAL
+[02:09:54] [Server thread/INFO]: Generating keypair
+[02:09:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:09:55] [Server thread/INFO]: Using epoll channel type
+[02:09:55] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-45c8386 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[02:09:57] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
+[02:09:57] [Server thread/INFO]: [AutoMessageDisplayer] Loading AutoMessageDisplayer v0.11
+[02:09:57] [Server thread/INFO]: [AutoSaveWorld] Loading AutoSaveWorld v4.15
+[02:09:57] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.4
+[02:09:57] [Server thread/INFO]: [dynmap] Loading dynmap v2.5-Dev201706100405
+[02:09:57] [Server thread/INFO]: [dynmap] version=git-Bukkit-45c8386 (MC: 1.12.2)
+[02:09:57] [Server thread/INFO]: [dynmap] Mod Support API available
+[02:09:57] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[02:09:57] [Server thread/INFO]: [NickNamesX] Loading NickNamesX v3.0
+[02:09:57] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.5.09-SNAPSHOT
+[02:09:57] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v1.83
+[02:09:57] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[02:09:57] [Server thread/INFO]: [ServerListPlus] Loading ServerListPlus v3.4.8
+[02:09:57] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15
+[02:09:58] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.5.09-SNAPSHOT
+[02:10:00] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[02:10:00] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:10:00] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[02:10:00] [Server thread/INFO]: Preparing level "world"
+[02:10:01] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1204458917662567272)
+[02:10:03] [Server thread/INFO]: Preparing spawn area: 0%
+[02:10:04] [Server thread/INFO]: Preparing spawn area: 14%
+[02:10:05] [Server thread/INFO]: Preparing spawn area: 31%
+[02:10:06] [Server thread/INFO]: Preparing spawn area: 57%
+[02:10:07] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3773245919112637208)
+[02:10:08] [Server thread/INFO]: Preparing spawn area: 40%
+[02:10:09] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3773245919112637208)
+[02:10:09] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[02:10:09] [Server thread/INFO]: [ClearLag] Loading modules...
+[02:10:09] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[02:10:09] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[02:10:09] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[02:10:09] [Thread-6/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[02:10:09] [Server thread/INFO]: [AutoMessageDisplayer] Enabling AutoMessageDisplayer v0.11
+[02:10:09] [Server thread/INFO]: Waw, an amazing plugin powered by LotuxPunk ! :-)
+[02:10:10] [Server thread/INFO]: [AutoMessageDisplayer] Config.yml found, loading!
+[02:10:10] [Server thread/INFO]: 13 messages loaded
+[02:10:10] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.4
+[02:10:10] [Server thread/INFO]: [dynmap] Enabling dynmap v2.5-Dev201706100405
+[02:10:10] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[02:10:10] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[02:10:11] [Thread-6/INFO]: [ClearLag] No updates found!
+[02:10:11] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[02:10:12] [Server thread/INFO]: [dynmap] Loaded 23 shaders.
+[02:10:13] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[02:10:13] [Server thread/INFO]: [dynmap] Loaded 14 lightings.
+[02:10:13] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[02:10:13] [Server thread/INFO]: [dynmap] version 2.5-Dev201706100405 is enabled - core version 2.5-Dev201706100401
+[02:10:13] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[02:10:13] [Server thread/INFO]: [dynmap] Loaded 6559 pending tile renders for world 'world'
+[02:10:13] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[02:10:13] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[02:10:13] [Server thread/INFO]: [dynmap] Enabled
+[02:10:13] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[02:10:14] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:10:14] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[02:10:14] [Server thread/INFO]: [NickNamesX] Enabling NickNamesX v3.0
+[02:10:14] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v1.83
+[02:10:15] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.4.8
+[02:10:15] [Server thread/ERROR]: [ServerListPlus] ProtocolLib IS NOT INSTALLED! Most features will NOT work!
+[02:10:16] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[02:10:16] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[02:10:16] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[02:10:16] [Server thread/ERROR]: [ServerListPlus] ProtocolLib IS NOT INSTALLED! Most features will NOT work!
+[02:10:16] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[02:10:16] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[02:10:16] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
+[02:10:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:10:16] [Server thread/INFO]: Done (16.365s)! For help, type "help" or "?"
+[02:10:16] [pool-3-thread-1/INFO]: [Vault] Checking for Updates ... 
+[02:10:17] [pool-3-thread-3/INFO]: [PlugMan] No update was found.
+[02:10:17] [pool-3-thread-1/INFO]: [Vault] No new version available
+[02:10:20] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[02:10:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5987ms behind, skipping 119 tick(s)
+[02:10:50] [User Authenticator #1/INFO]: UUID of player Glaedien is 30c8a096-2ff7-4d5c-bc6e-716665f30a43
+[02:10:50] [Server thread/INFO]: Tried to load unrecognized recipe: bukkit:0b2d909f-54b8-42ec-8d5a-d8dca9c9812b removed now.
+[02:10:50] [Server thread/INFO]: Tried to load unrecognized recipe: bukkit:0b2d909f-54b8-42ec-8d5a-d8dca9c9812b removed now.
+[02:10:51] [Server thread/INFO]: Glaedien[/172.124.117.167:61665] logged in with entity id 492 at ([world]-2223.9729802728357, 70.0, -713.3000000119209)
+[02:10:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4902ms behind, skipping 98 tick(s)
+[02:11:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3917ms behind, skipping 78 tick(s)
+[02:11:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4221ms behind, skipping 84 tick(s)
+[02:11:30] [User Authenticator #2/INFO]: UUID of player ringmaster27 is 72b2f7fb-db10-4ea8-8879-e7ceaa1b8994
+[02:11:31] [Server thread/INFO]: ringmaster27[/201.191.71.44:58267] logged in with entity id 974 at ([world]-233.08928433182254, 11.634099998474122, 295.5)
+[02:11:39] [Netty Epoll Server IO #1/INFO]: <Glaedien> o/[m
+[02:11:50] [Netty Epoll Server IO #0/INFO]: <David> hey hey[m
+[02:12:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 20373ms behind, skipping 407 tick(s)
+[02:12:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2887ms behind, skipping 57 tick(s)
+[02:12:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3363ms behind, skipping 67 tick(s)
+[02:12:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6694ms behind, skipping 133 tick(s)
+[02:12:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3786ms behind, skipping 75 tick(s)
+[02:13:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2578ms behind, skipping 51 tick(s)
+[02:14:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11014ms behind, skipping 220 tick(s)
+[02:14:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2249ms behind, skipping 44 tick(s)
+[02:14:47] [User Authenticator #3/INFO]: UUID of player thedubiousbean is 49c279eb-bae0-47c6-964d-b3f62242ae05
+[02:14:48] [Server thread/INFO]: thedubiousbean[/99.113.207.72:12926] logged in with entity id 6082 at ([world]127.76671190396843, 61.0, 349.52598759560925)
+[02:14:53] [Netty Epoll Server IO #1/INFO]: <Glaedien> Heya[m
+[02:15:05] [Netty Epoll Server IO #1/INFO]: <Robert> sa dude[m
+[02:15:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6594ms behind, skipping 131 tick(s)
+[02:15:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7478ms behind, skipping 149 tick(s)
+[02:15:34] [Netty Epoll Server IO #1/INFO]: <Glaedien> Trapped in a villager house by Zomberts[m
+[02:15:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11696ms behind, skipping 233 tick(s)
+[02:15:49] [Netty Epoll Server IO #1/INFO]: <Robert> imma b afk, just here to be a burden on the server[m
+[02:15:58] [Server thread/INFO]: thedubiousbean issued server command: /gamemode creative
+[02:15:58] [Server thread/INFO]: [thedubiousbean: Set own game mode to Creative Mode]
+[02:16:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2817ms behind, skipping 56 tick(s)
+[02:16:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4130ms behind, skipping 82 tick(s)
+[02:16:30] [Netty Epoll Server IO #1/INFO]: <Glaedien> kk[m
+[02:16:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3241ms behind, skipping 64 tick(s)
+[02:16:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3905ms behind, skipping 78 tick(s)
+[02:17:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4212ms behind, skipping 84 tick(s)
+[02:17:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11164ms behind, skipping 223 tick(s)
+[02:17:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2375ms behind, skipping 47 tick(s)
+[02:18:22] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[02:18:28] [Netty Epoll Server IO #0/INFO]: <David> nice[m
+[02:18:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2257ms behind, skipping 45 tick(s)
+[02:19:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3619ms behind, skipping 72 tick(s)
+[02:19:05] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[02:19:24] [Server thread/WARN]: Tried to over-fill a container
+[02:19:24] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 53 Entities![m
+[02:19:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2009ms behind, skipping 40 tick(s)
+[02:19:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3826ms behind, skipping 76 tick(s)
+[02:22:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2548ms behind, skipping 50 tick(s)
+[02:22:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2922ms behind, skipping 58 tick(s)
+[02:22:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2122ms behind, skipping 42 tick(s)
+[02:22:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2691ms behind, skipping 53 tick(s)
+[02:23:07] [Server thread/WARN]: Glaedien moved too quickly! 12.143202569217465,-1.7531999805212024,24.67093967875053
+[02:23:29] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 15025ms behind, skipping 300 tick(s)
+[02:23:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2183ms behind, skipping 43 tick(s)
+[02:23:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5915ms behind, skipping 118 tick(s)
+[02:24:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4076ms behind, skipping 81 tick(s)
+[02:24:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7900ms behind, skipping 158 tick(s)
+[02:24:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5556ms behind, skipping 111 tick(s)
+[02:25:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3821ms behind, skipping 76 tick(s)
+[02:25:11] [File IO Thread/WARN]: java.io.IOException: No space left on device
+[02:25:11] [File IO Thread/WARN]: 	at java.io.RandomAccessFile.writeBytes(Native Method)
+[02:25:11] [File IO Thread/WARN]: 	at java.io.RandomAccessFile.write(RandomAccessFile.java:512)
+[02:25:11] [File IO Thread/WARN]: 	at net.minecraft.server.v1_12_R1.RegionFile.a(SourceFile:306)
+[02:25:11] [File IO Thread/WARN]: 	at net.minecraft.server.v1_12_R1.RegionFile$ChunkBuffer.close(SourceFile:244)
+[02:25:11] [File IO Thread/WARN]: 	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:241)
+[02:25:11] [File IO Thread/WARN]: 	at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+[02:25:11] [File IO Thread/WARN]: 	at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+[02:25:11] [File IO Thread/WARN]: 	at net.minecraft.server.v1_12_R1.RegionFileCache.e(RegionFileCache.java:95)
+[02:25:11] [File IO Thread/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.b(ChunkRegionLoader.java:193)
+[02:25:11] [File IO Thread/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.processSaveQueueEntry(ChunkRegionLoader.java:176)
+[02:25:11] [File IO Thread/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:148)
+[02:25:11] [File IO Thread/WARN]: 	at net.minecraft.server.v1_12_R1.FileIOThread.c(SourceFile:37)
+[02:25:11] [File IO Thread/WARN]: 	at net.minecraft.server.v1_12_R1.FileIOThread.run(SourceFile:30)
+[02:25:11] [File IO Thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[02:25:11] [File IO Thread/WARN]: java.io.IOException: No space left on device
+[02:25:11] [File IO Thread/WARN]: 	at java.io.RandomAccessFile.writeBytes(Native Method)
+[02:25:11] [File IO Thread/WARN]: 	at java.io.RandomAccessFile.write(RandomAccessFile.java:512)
+[02:25:11] [File IO Thread/WARN]: 	at net.minecraft.server.v1_12_R1.RegionFile.a(SourceFile:306)
+[02:25:11] [File IO Thread/WARN]: 	at net.minecraft.server.v1_12_R1.RegionFile$ChunkBuffer.close(SourceFile:244)
+[02:25:11] [File IO Thread/WARN]: 	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:241)
+[02:25:11] [File IO Thread/WARN]: 	at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+[02:25:11] [File IO Thread/WARN]: 	at java.io.FilterOutputStream.close(Filte[02:30:02] [Dynmap Render Thread/ERROR]: [dynmap] Exception while writing JSON-file - dynmap_world_nether.json
+[02:30:03] [Dynmap Render Thread/INFO]: [dynmap] Image file /var/www/html/map/tiles/world/t/-5_3/-148_118.png - unable to write - failed
+[02:30:03] [Dynmap Render Thread/ERROR]: [dynmap] Exception while writing JSON-file - /var/www/html/map/standalone/dynmap_world.json.new
+java.io.IOException: No space left on device
+	at java.io.RandomAccessFile.writeBytes(Native Method) ~[?:1.8.0_151]
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525) ~[?:1.8.0_151]
+	at org.dynmap.storage.MapStorage.setStandaloneFile(MapStorage.java:264) [dynmap-2.5.jar:?]
+	at org.dynmap.JsonFileClientUpdateComponent$FileProcessor.run(JsonFileClientUpdateComponent.java:88) [dynmap-2.5.jar:?]
+	at org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$1.run(MapManager.java:190) [dynmap-2.5.jar:?]
+	at org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$2.run(MapManager.java:206) [dynmap-2.5.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[02:30:04] [Dynmap Render Thread/ERROR]: [dynmap] Exception while writing JSON-file - dynmap_world.json
+[02:30:04] [Dynmap Render Thread/ERROR]: [dynmap] Exception while writing JSON-file - /var/www/html/map/standalone/dynmap_world_nether.json.new
+java.io.IOException: No space left on device
+	at java.io.RandomAccessFile.writeBytes(Native Method) ~[?:1.8.0_151]
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525) ~[?:1.8.0_151]
+	at org.dynmap.storage.MapStorage.setStandaloneFile(MapStorage.java:264) [dynmap-2.5.jar:?]
+	at org.dynmap.JsonFileClientUpdateComponent$FileProcessor.run(JsonFileClientUpdateComponent.java:88) [dynmap-2.5.jar:?]
+	at org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$1.run(MapManager.java:190) [dynmap-2.5.jar:?]
+	at org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$2.run(MapManager.java:206) [dynmap-2.5.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[02:30:04] [Dynmap Render Thread/ERROR]: [dynmap] Exception while writing JSON-file - dynmap_world_nether.json
+[02:30:04] [Dynmap Render Thread/ERROR]: [dynmap] Exception while writing JSON-file - /var/www/html/map/standalone/dynmap_world_the_end.json.new
+java.io.IOException: No space left on device
+	at java.io.RandomAccessFile.writeBytes(Native Method) ~[?:1.8.0_151]
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525) ~[?:1.8.0_151]
+	at org.dynmap.storage.MapStorage.setStandaloneFile(MapStorage.java:264) [dynmap-2.5.jar:?]
+	at org.dynmap.JsonFileClientUpdateComponent$FileProcessor.run(JsonFileClientUpdateComponent.java:88) [dynmap-2.5.jar:?]
+	at org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$1.run(MapManager.java:190) [dynmap-2.5.jar:?]
+	at org.dynmap.MapManager$DynmapScheduledThreadPoolExecutor$2.run(MapManager.java:206) [dynmap-2.5

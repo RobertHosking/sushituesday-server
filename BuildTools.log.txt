@@ -1,0 +1,2319 @@
+BuildTools
+unconfigured@null.spigotmc.org
+Attempting to build version: 'latest' use --rev <version> to override
+Found version
+{
+	"name": "1562",
+	"description": "Jenkins build 1562",
+	"refs": {
+		"BuildData": "be360cc298a06b5355ecd057f5b1feb894a73f0f",
+		"Bukkit": "59b49b81dd4dd7c29debd3bb46961001531ea5ca",
+		"CraftBukkit": "d0a3620c2dc8a22438808f395348c100a183a618",
+		"Spigot": "2086bb074d6795823451bdb9f857d83c0f566990"
+	},
+	"toolsVersion": 47
+}
+
+Pulling updates for /root/spigot/BuildData/.git
+Successfully fetched updates!
+Checked out: be360cc298a06b5355ecd057f5b1feb894a73f0f
+Pulling updates for /root/spigot/Bukkit/.git
+Successfully fetched updates!
+Checked out: 59b49b81dd4dd7c29debd3bb46961001531ea5ca
+Pulling updates for /root/spigot/CraftBukkit/.git
+Successfully fetched updates!
+Checked out: d0a3620c2dc8a22438808f395348c100a183a618
+Pulling updates for /root/spigot/Spigot/.git
+Successfully fetched updates!
+Checked out: 2086bb074d6795823451bdb9f857d83c0f566990
+Attempting to build Minecraft with details: VersionInfo(minecraftVersion=1.12.2, accessTransforms=bukkit-1.12.2.at, classMappings=bukkit-1.12.2-cl.csrg, memberMappings=bukkit-1.12.2-members.csrg, packageMappings=package.srg, minecraftHash=71728ed3fbd0acd1394bf3ade2649a5c, decompileCommand=java -jar BuildData/bin/fernflower.jar -dgs=1 -hdc=0 -asc=1 -udv=0 {0} {1}, serverUrl=https://launcher.mojang.com/mc/game/1.12.2/server/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar)
+Found good Minecraft hash (71728ed3fbd0acd1394bf3ade2649a5c)
+Found good Minecraft hash (71728ed3fbd0acd1394bf3ade2649a5c)
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding Maven Stub Project (No POM) 1[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install-file[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[[1;34mINFO[m] Installing /root/spigot/work/mapped.cf6b1333.jar to /root/.m2/repository/org/spigotmc/minecraft-server/1.12.2-SNAPSHOT/minecraft-server-1.12.2-SNAPSHOT.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 1.275 s
+[[1;34mINFO[m] Finished at: 2018-05-22T22:16:45-04:00
+[[1;34mINFO[m] Final Memory: 7M/20M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Applying CraftBukkit Patches
+Backing up NMS dir
+Patching with BlockChorusFlower.patch
+Patching with RecipeTippedArrow.patch
+Patching with EntityHorseAbstract.patch
+Patching with TileEntityDispenser.patch
+Patching with CrashReport.patch
+Patching with ItemFishingRod.patch
+Patching with PathfinderGoalSit.patch
+Patching with BlockGrass.patch
+Patching with EntityOcelot.patch
+Patching with PathfinderGoalVillagerFarm.patch
+Patching with EntityFireworks.patch
+Patching with ItemFireball.patch
+Patching with TileEntity.patch
+Patching with ItemSnowball.patch
+Patching with TileEntityChest.patch
+Patching with ItemLeash.patch
+Patching with EntityCreeper.patch
+Patching with PathfinderGoalTempt.patch
+Patching with BlockSnowBlock.patch
+Patching with EntitySpider.patch
+Patching with BlockPressurePlateBinary.patch
+Patching with RecipiesShield.patch
+Patching with AdvancementDataPlayer.patch
+Patching with TileEntityShulkerBox.patch
+Patching with CommandGamerule.patch
+Patching with AdvancementRewards.patch
+Patching with EntitySkeletonAbstract.patch
+Patching with ScoreboardServer.patch
+Patching with PlayerInventory.patch
+Patching with ContainerAnvil.patch
+Patching with PathfinderGoalDefendVillage.patch
+Patching with BlockFluids.patch
+Patching with BlockTripwireHook.patch
+Patching with BlockDropper.patch
+Patching with PacketDataSerializer.patch
+Patching with PathfinderGoalPanic.patch
+Patching with WorldGenGroundBush.patch
+Patching with RegionFileCache.patch
+Patching with BlockReed.patch
+Patching with DedicatedServer.patch
+Patching with EntityChicken.patch
+Patching with PathfinderGoalTargetNearestPlayer.patch
+Patching with EntityArmorStand.patch
+Patching with PathfinderGoalOwnerHurtTarget.patch
+Patching with EnchantmentFrostWalker.patch
+Patching with BlockMonsterEggs.patch
+Patching with EntityTrackerEntry.patch
+Patching with EntityVex.patch
+Patching with BlockOre.patch
+Patching with WorldServer.patch
+Patching with ContainerBrewingStand.patch
+Patching with NetworkManager.patch
+Patching with BlockPumpkin.patch
+Patching with BlockTripwire.patch
+Patching with EntityFallingBlock.patch
+Patching with PathfinderGoalBreakDoor.patch
+Patching with DamageSource.patch
+Patching with MobSpawnerAbstract.patch
+Patching with EntityBoat.patch
+Patching with TileEntityStructure.patch
+Patching with EntityLiving.patch
+Patching with UserCache.patch
+Patching with TileEntityCommand.patch
+Patching with DataWatcher.patch
+Patching with PlayerChunkMap.patch
+Patching with EntityFireball.patch
+Patching with BlockMushroom.patch
+Patching with CraftingManager.patch
+Patching with IInventory.patch
+Patching with ItemRedstone.patch
+Patching with ContainerBeacon.patch
+Patching with LoginListener.patch
+Patching with PathfinderGoalMakeLove.patch
+Patching with ContainerFurnace.patch
+Patching with EntityTNTPrimed.patch
+Patching with ChunkProviderGenerate.patch
+Patching with SlotFurnaceResult.patch
+Patching with ItemBow.patch
+Patching with EntityPig.patch
+Patching with EntityZombie.patch
+Patching with EntityThrownExpBottle.patch
+Patching with FoodMetaData.patch
+Patching with EntitySilverfish.patch
+Patching with PlayerConnection.patch
+Patching with InventorySubcontainer.patch
+Patching with EntityEnderCrystal.patch
+Patching with ChatBaseComponent.patch
+Patching with EntitySmallFireball.patch
+Patching with BlockPressurePlateAbstract.patch
+Patching with ContainerPlayer.patch
+Patching with BlockPoweredRail.patch
+Patching with RecipesBanner.patch
+Patching with JsonList.patch
+Patching with BlockStem.patch
+Patching with DispenseBehaviorProjectile.patch
+Patching with CustomFunctionData.patch
+Patching with BlockDispenser.patch
+Patching with WorldMap.patch
+Patching with DataPaletteBlock.patch
+Patching with Advancements.patch
+Patching with TileEntityHopper.patch
+Patching with BlockCrops.patch
+Patching with BlockMagma.patch
+Patching with ItemDye.patch
+Patching with BlockLever.patch
+Patching with WorldManager.patch
+Patching with ItemReed.patch
+Patching with Village.patch
+Patching with EntityInsentient.patch
+Patching with RecipeRepair.patch
+Patching with RemoteControlCommandListener.patch
+Patching with InventoryEnderChest.patch
+Patching with EntityProjectile.patch
+Patching with EntityCreature.patch
+Patching with EntityEvokerFangs.patch
+Patching with ItemArmor.patch
+Patching with BlockDiodeAbstract.patch
+Patching with DragonControllerManager.patch
+Patching with PathfinderGoalFollowOwner.patch
+Patching with PathfinderGoalHorseTrap.patch
+Patching with EntitySkeletonWither.patch
+Patching with EntityPotion.patch
+Patching with EntityEnderSignal.patch
+Patching with RecipeMapClone.patch
+Patching with MobEffectList.patch
+Patching with WorldGenMegaTreeAbstract.patch
+Patching with ItemRecord.patch
+Patching with BlockSapling.patch
+Patching with BlockTrapdoor.patch
+Patching with ItemWaterLily.patch
+Patching with PathfinderGoalOwnerHurtByTarget.patch
+Patching with EntityAreaEffectCloud.patch
+Patching with EntityFishingHook.patch
+Patching with RecipeFireworks.patch
+Patching with EntityVillager.patch
+Patching with MinecraftServer.patch
+Patching with BlockMycel.patch
+Patching with EntityLeash.patch
+Patching with EntityHorseChestedAbstract.patch
+Patching with ItemEnderPearl.patch
+Patching with InventoryMerchant.patch
+Patching with ItemWorldMap.patch
+Patching with ExpirableListEntry.patch
+Patching with MethodProfiler.patch
+Patching with ItemBlock.patch
+Patching with BlockNetherWart.patch
+Patching with BlockSoil.patch
+Patching with TileEntityFurnace.patch
+Patching with CommandTeleport.patch
+Patching with Entity.patch
+Patching with EntityShulker.patch
+Patching with BlockWaterLily.patch
+Patching with BlockCocoa.patch
+Patching with EntityTracker.patch
+Patching with EntityDamageSourceIndirect.patch
+Patching with EntityRabbit.patch
+Patching with BlockMinecartDetector.patch
+Patching with EntityLightning.patch
+Patching with StatisticManager.patch
+Patching with DataInspectorBlockEntity.patch
+Patching with RecipeBookClone.patch
+Patching with InventoryCrafting.patch
+Patching with BlockPressurePlateWeighted.patch
+Patching with EntityHanging.patch
+Patching with EntityTippedArrow.patch
+Patching with ShapelessRecipes.patch
+Patching with World.patch
+Patching with EntityLargeFireball.patch
+Patching with BlockCake.patch
+Patching with EntityWitherSkull.patch
+Patching with ItemWrittenBook.patch
+Patching with ChatModifier.patch
+Patching with EntityLlamaSpit.patch
+Patching with EnchantmentThorns.patch
+Patching with DispenserRegistry.patch
+Patching with ContainerDispenser.patch
+Patching with Container.patch
+Patching with TileEntityBrewingStand.patch
+Patching with EntitySnowman.patch
+Patching with PathfinderGoalNearestAttackableTargetInsentient.patch
+Patching with IRecipe.patch
+Patching with EntityMonster.patch
+Patching with EntityZombieVillager.patch
+Patching with BlockFire.patch
+Patching with NameReferencingFileConverter.patch
+Patching with ItemSkull.patch
+Patching with CustomFunction.patch
+Patching with Explosion.patch
+Patching with EntityCow.patch
+Patching with PacketPlayInCloseWindow.patch
+Patching with ContainerWorkbench.patch
+Patching with BlockSkull.patch
+Patching with BlockIce.patch
+Patching with BlockCommand.patch
+Patching with PacketPlayOutWorldBorder.patch
+Patching with InventoryHorseChest.patch
+Patching with EntityEgg.patch
+Patching with BlockPlant.patch
+Patching with SpawnerCreature.patch
+Patching with SecondaryWorldServer.patch
+Patching with EntityWither.patch
+Patching with WorldBorder.patch
+Patching with EntitySlice.patch
+Patching with EntityItemFrame.patch
+Patching with EntityMinecartCommandBlock.patch
+Patching with RecipesFurnace.patch
+Patching with TileEntitySign.patch
+Patching with PathfinderGoalHurtByTarget.patch
+Patching with EntityMushroomCow.patch
+Patching with RecipeArmorDye.patch
+Patching with WorldGenVillagePieces.patch
+Patching with BlockVine.patch
+Patching with ContainerHorse.patch
+Patching with CommandGamemode.patch
+Patching with BlockRedstoneOre.patch
+Patching with EntityEnderDragon.patch
+Patching with EntityWolf.patch
+Patching with CommandExecute.patch
+Patching with WorldNBTStorage.patch
+Patching with BlockMobSpawner.patch
+Patching with TileEntityNote.patch
+Patching with ChunkProviderServer.patch
+Patching with BlockCactus.patch
+Patching with EntityExperienceOrb.patch
+Patching with Block.patch
+Patching with EntitySkeleton.patch
+Patching with ContainerShulkerBox.patch
+Patching with InventoryCraftResult.patch
+Patching with ContainerHopper.patch
+Patching with MerchantRecipe.patch
+Patching with IDataManager.patch
+Patching with ContainerChest.patch
+Patching with EntitySheep.patch
+Patching with BlockDoor.patch
+Patching with PlayerList.patch
+Patching with BlockRedstoneLamp.patch
+Patching with Chunk.patch
+Patching with BlockPiston.patch
+Patching with ItemChorusFruit.patch
+Patching with EntityHuman.patch
+Patching with BlockEnderPortal.patch
+Patching with BlockShulkerBox.patch
+Patching with BlockPortal.patch
+Patching with PathfinderGoalTarget.patch
+Patching with EntityMinecartContainer.patch
+Patching with PacketStatusListener.patch
+Patching with PathfinderGoalTame.patch
+Patching with TileEntityEndGateway.patch
+Patching with ItemBucket.patch
+Patching with EntityShulkerBullet.patch
+Patching with WorldData.patch
+Patching with WorldProviderHell.patch
+Patching with EntityMinecartAbstract.patch
+Patching with PlayerChunk.patch
+Patching with BlockDaylightDetector.patch
+Patching with BlockTallPlant.patch
+Patching with TileEntityBeacon.patch
+Patching with CommandBlockListenerAbstract.patch
+Patching with Enchantment.patch
+Patching with BlockButtonAbstract.patch
+Patching with PathfinderGoalNearestAttackableTarget.patch
+Patching with WorldGenRegistration.patch
+Patching with EntityGhast.patch
+Patching with ItemFlintAndSteel.patch
+Patching with PathfinderGoalEatTile.patch
+Patching with VillageSiege.patch
+Patching with ItemMonsterEgg.patch
+Patching with EntityPlayer.patch
+Patching with ItemMinecart.patch
+Patching with EntityAgeable.patch
+Patching with BlockCauldron.patch
+Patching with ChunkRegionLoader.patch
+Patching with EntityParrot.patch
+Patching with RecipeShulkerBox.patch
+Patching with BlockStationary.patch
+Patching with ItemStack.patch
+Patching with TileEntityContainer.patch
+Patching with InventoryLargeChest.patch
+Patching with BlockRedstoneTorch.patch
+Patching with BlockConcretePowder.patch
+Patching with BlockRedstoneWire.patch
+Patching with BlockJukeBox.patch
+Patching with EntityAnimal.patch
+Patching with HandshakeListener.patch
+Patching with EntityEnderPearl.patch
+Patching with PortalTravelAgent.patch
+Patching with BlockFlowing.patch
+Patching with BlockDragonEgg.patch
+Patching with ContainerEnchantTable.patch
+Patching with CommandSpreadPlayers.patch
+Patching with CommandDebug.patch
+Patching with EntityEnderman.patch
+Patching with BlockTNT.patch
+Patching with EntitySlime.patch
+Patching with DispenseBehaviorItem.patch
+Patching with BlockSnow.patch
+Patching with ShapedRecipes.patch
+Patching with CommandTp.patch
+Patching with ChunkSection.patch
+Patching with ItemBoat.patch
+Patching with EntityItem.patch
+Patching with ContainerMerchant.patch
+Patching with EntityArrow.patch
+Patching with BlockLeaves.patch
+Patching with PathfinderGoalBreed.patch
+Patching with PlayerInteractManager.patch
+Patching with TileEntityBanner.patch
+Patching with ItemHanging.patch
+Patching with EntityIronGolem.patch
+Patching with EntityPainting.patch
+Patching with PropertyManager.patch
+Patching with Advancement.patch
+Compiling Bukkit
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding Bukkit 1.12.2-R0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mbukkit[0;1m ---[m
+[[1;34mINFO[m] Deleting /root/spigot/Bukkit/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mbukkit[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /root/spigot/Bukkit/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mbukkit[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mbukkit[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /root/spigot/Bukkit/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mbukkit[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mbukkit[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /root/spigot/Bukkit/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.ChatColorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.272 sec
+Running org.bukkit.BukkitMirrorTest
+Tests run: 495, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.976 sec
+Running org.bukkit.InstrumentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.bukkit.event.SyntheticEventTest
+May 22, 2018 10:17:10 PM org.bukkit.Bukkit setServer
+INFO: This server is running TestServer version Version_null (Implementing API version BukkitVersion_null)
+Invk org.bukkit.event.TestEvent@302552ec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.498 sec
+Running org.bukkit.event.PlayerChatTabCompleteEventTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.298 sec
+Running org.bukkit.util.StringUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec
+Running org.bukkit.util.io.BukkitObjectStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.259 sec
+Running org.bukkit.util.StringUtilStartsWithTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running org.bukkit.ChatPaginatorTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.bukkit.GameModeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.GrassSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.DifficultyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.bukkit.configuration.file.YamlConfigurationTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.561 sec
+Running org.bukkit.configuration.MemorySectionTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Running org.bukkit.configuration.MemoryConfigurationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.bukkit.plugin.TimedRegisteredListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.bukkit.plugin.messaging.StandardMessengerTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+Running org.bukkit.plugin.PluginManagerTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.EffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.materials.MaterialDataTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running org.bukkit.metadata.MetadataValueAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.bukkit.metadata.LazyMetadataValueTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.bukkit.metadata.FixedMetadataValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.metadata.MetadataConversionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.bukkit.metadata.MetadataStoreTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running org.bukkit.NoteTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running org.bukkit.EntityEffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.CoalTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.ArtTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running org.bukkit.CropStateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.MaterialTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.273 sec
+Running org.bukkit.TreeSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.LocationTest
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 sec
+Running org.bukkit.DyeColorTest
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec
+Running org.bukkit.ColorTest
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 sec
+Running org.bukkit.conversations.ValidatingPromptTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Running org.bukkit.conversations.ConversationContextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.bukkit.conversations.ConversationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+
+Results :
+
+Tests run: 924, Failures: 0, Errors: 0, Skipped: 3
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mbukkit[0;1m ---[m
+[[1;34mINFO[m] Building jar: /root/spigot/Bukkit/target/bukkit-1.12.2-R0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:3.1.0:shade[m [1m(default)[m @ [36mbukkit[0;1m ---[m
+[[1;34mINFO[m] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[[1;34mINFO[m] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[[1;34mINFO[m] Including com.google.guava:guava:jar:21.0 in the shaded jar.
+[[1;34mINFO[m] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
+[[1;34mINFO[m] Including org.yaml:snakeyaml:jar:1.19 in the shaded jar.
+[[1;34mINFO[m] Attaching shaded artifact.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mbukkit[0;1m ---[m
+[[1;34mINFO[m] Installing /root/spigot/Bukkit/target/bukkit-1.12.2-R0.1-SNAPSHOT.jar to /root/.m2/repository/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /root/spigot/Bukkit/pom.xml to /root/.m2/repository/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /root/spigot/Bukkit/target/bukkit-1.12.2-R0.1-SNAPSHOT-shaded.jar to /root/.m2/repository/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/bukkit-1.12.2-R0.1-SNAPSHOT-shaded.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 24.145 s
+[[1;34mINFO[m] Finished at: 2018-05-22T22:17:17-04:00
+[[1;34mINFO[m] Final Memory: 17M/56M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Compiling CraftBukkit
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding CraftBukkit 1.12.2-R0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Downloading: https://hub.spigotmc.org/nexus/content/groups/public/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final.pom
+Progress (1): 771 B
+Progress (1): 1.3 kB
+Progress (1): 3.8 kB
+Progress (1): 7.9 kB
+Progress (1): 8.1 kB
+Progress (1): 9.5 kB
+Progress (1): 14 kB 
+Progress (1): 17 kB
+Progress (1): 20 kB
+Progress (1): 22 kB
+Progress (1): 26 kB
+                   
+Downloaded: https://hub.spigotmc.org/nexus/content/groups/public/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final.pom (26 kB at 31 kB/s)
+Downloading: https://hub.spigotmc.org/nexus/content/groups/public/io/netty/netty-parent/4.1.24.Final/netty-parent-4.1.24.Final.pom
+Progress (1): 850 B
+Progress (1): 1.8 kB
+Progress (1): 2.6 kB
+Progress (1): 4.3 kB
+Progress (1): 6.0 kB
+Progress (1): 7.1 kB
+Progress (1): 9.3 kB
+Progress (1): 12 kB 
+Progress (1): 14 kB
+Progress (1): 17 kB
+Progress (1): 20 kB
+Progress (1): 22 kB
+Progress (1): 24 kB
+Progress (1): 27 kB
+Progress (1): 28 kB
+Progress (1): 31 kB
+Progress (1): 33 kB
+Progress (1): 34 kB
+Progress (1): 36 kB
+Progress (1): 39 kB
+Progress (1): 42 kB
+Progress (1): 43 kB
+Progress (1): 47 kB
+Progress (1): 49 kB
+Progress (1): 52 kB
+                   
+Downloaded: https://hub.spigotmc.org/nexus/content/groups/public/io/netty/netty-parent/4.1.24.Final/netty-parent-4.1.24.Final.pom (52 kB at 722 kB/s)
+Downloading: https://hub.spigotmc.org/nexus/content/groups/public/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final.jar
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.1/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.2/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.3/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.4/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.5/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.6/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.7/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.8/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 0.9/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.0/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.1/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.2/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.3/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.4/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.5/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.6/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.7/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.8/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 1.9/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.0/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.1/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.2/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.3/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.4/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.5/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.6/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.7/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.8/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 2.9/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.0/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.1/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.2/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.3/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.4/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.5/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.6/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.7/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8/3.8 MB
+Progress (1): 3.8 MB    
+                    
+Downloaded: https://hub.spigotmc.org/nexus/content/groups/public/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final.jar (3.8 MB at 2.9 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mcraftbukkit[0;1m ---[m
+[[1;34mINFO[m] Deleting /root/spigot/CraftBukkit/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscriptus:0.2:describe[m [1m(default)[m @ [36mcraftbukkit[0;1m ---[m
+[[1;34mINFO[m] Set property "describe" to "git-Bukkit-d0a3620"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcraftbukkit[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mcraftbukkit[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcraftbukkit[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /root/spigot/CraftBukkit/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mcraftbukkit[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.20:test[m [1m(default-test)[m @ [36mcraftbukkit[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.bukkit.[1mParticleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 s - in org.bukkit.[1mParticleTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mPerMaterialTest[m
+May 22, 2018 10:17:59 PM org.bukkit.Bukkit setServer
+INFO: This server is running org.bukkit.support.DummyServer version null (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6482[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.018 s - in org.bukkit.[1mPerMaterialTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mStatisticsAndAchievementsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in org.bukkit.[1mStatisticsAndAchievementsTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mWorldTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.[1mWorldTypeTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mChatTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.bukkit.[1mChatTest[m
+[[1;34mINFO[m] Running org.bukkit.map.[1mMapTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in org.bukkit.map.[1mMapTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mArtTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.bukkit.[1mArtTest[m
+[[1;34mINFO[m] Running org.bukkit.entity.[1mEnderDragonPhaseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 s - in org.bukkit.entity.[1mEnderDragonPhaseTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mMaterialTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.bukkit.[1mMaterialTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mBiomeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in org.bukkit.[1mBiomeTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.generator.[1mChunkDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.729 s - in org.bukkit.craftbukkit.generator.[1mChunkDataTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mFactoryItemMaterialTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1644[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.058 s - in org.bukkit.craftbukkit.inventory.[1mFactoryItemMaterialTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mNMSCraftItemStackTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.bukkit.craftbukkit.inventory.[1mNMSCraftItemStackTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mItemMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 s - in org.bukkit.craftbukkit.inventory.[1mItemMetaTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mItemFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.907 s - in org.bukkit.craftbukkit.inventory.[1mItemFactoryTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mItemMetaImplementationOverrideTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m117[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s - in org.bukkit.craftbukkit.inventory.[1mItemMetaImplementationOverrideTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mItemMetaCloneTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.bukkit.craftbukkit.inventory.[1mItemMetaCloneTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mDyeColorsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m32[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.bukkit.[1mDyeColorsTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mSoundTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in org.bukkit.[1mSoundTest[m
+[[1;34mINFO[m] Running org.bukkit.potion.[1mPotionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.bukkit.potion.[1mPotionTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 8313, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.0.2:jar[m [1m(default-jar)[m @ [36mcraftbukkit[0;1m ---[m
+[[1;34mINFO[m] Building jar: /root/spigot/CraftBukkit/target/craftbukkit-1.12.2-R0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:3.1.0:shade[m [1m(default)[m @ [36mcraftbukkit[0;1m ---[m
+[[1;34mINFO[m] Including io.netty:netty-all:jar:4.1.24.Final in the shaded jar.
+[[1;34mINFO[m] Including org.bukkit:bukkit:jar:1.12.2-R0.1-SNAPSHOT in the shaded jar.
+[[1;34mINFO[m] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[[1;34mINFO[m] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[[1;34mINFO[m] Including com.google.guava:guava:jar:21.0 in the shaded jar.
+[[1;34mINFO[m] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
+[[1;34mINFO[m] Including org.yaml:snakeyaml:jar:1.19 in the shaded jar.
+[[1;34mINFO[m] Including org.spigotmc:minecraft-server:jar:1.12.2-SNAPSHOT in the shaded jar.
+[[1;34mINFO[m] Including net.sf.jopt-simple:jopt-simple:jar:5.0.4 in the shaded jar.
+[[1;34mINFO[m] Including jline:jline:jar:2.12.1 in the shaded jar.
+[[1;34mINFO[m] Including org.xerial:sqlite-jdbc:jar:3.21.0.1 in the shaded jar.
+[[1;34mINFO[m] Including mysql:mysql-connector-java:jar:5.1.45 in the shaded jar.
+[[1;33mWARNING[m] minecraft-server-1.12.2-SNAPSHOT.jar, guava-21.0.jar define 1837 overlapping classes: 
+[[1;33mWARNING[m]   - com.google.common.collect.ImmutableMapValues$1
+[[1;33mWARNING[m]   - com.google.common.io.LineProcessor
+[[1;33mWARNING[m]   - com.google.common.util.concurrent.AbstractService$5
+[[1;33mWARNING[m]   - com.google.common.io.BaseEncoding$StandardBaseEncoding$2
+[[1;33mWARNING[m]   - com.google.common.io.ByteProcessor
+[[1;33mWARNING[m]   - com.google.common.math.package-info
+[[1;33mWARNING[m]   - com.google.common.util.concurrent.SimpleTimeLimiter
+[[1;33mWARNING[m]   - com.google.common.cache.AbstractCache$StatsCounter
+[[1;33mWARNING[m]   - com.google.common.util.concurrent.CycleDetectingLockFactory$Policies
+[[1;33mWARNING[m]   - com.google.common.primitives.UnsignedInts$LexicographicalComparator
+[[1;33mWARNING[m]   - 1827 more...
+[[1;33mWARNING[m] minecraft-server-1.12.2-SNAPSHOT.jar, gson-2.8.0.jar define 174 overlapping classes: 
+[[1;33mWARNING[m]   - com.google.gson.internal.bind.JsonTreeWriter
+[[1;33mWARNING[m]   - com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl
+[[1;33mWARNING[m]   - com.google.gson.internal.Excluder
+[[1;33mWARNING[m]   - com.google.gson.JsonDeserializationContext
+[[1;33mWARNING[m]   - com.google.gson.Gson$6
+[[1;33mWARNING[m]   - com.google.gson.FieldNamingPolicy$5
+[[1;33mWARNING[m]   - com.google.gson.internal.$Gson$Types
+[[1;33mWARNING[m]   - com.google.gson.internal.LinkedTreeMap$KeySet
+[[1;33mWARNING[m]   - com.google.gson.internal.UnsafeAllocator$2
+[[1;33mWARNING[m]   - com.google.gson.internal.bind.SqlDateTypeAdapter$1
+[[1;33mWARNING[m]   - 164 more...
+[[1;33mWARNING[m] minecraft-server-1.12.2-SNAPSHOT.jar, netty-all-4.1.24.Final.jar define 2256 overlapping classes: 
+[[1;33mWARNING[m]   - io.netty.handler.codec.http.multipart.InterfaceHttpData$HttpDataType
+[[1;33mWARNING[m]   - io.netty.resolver.dns.InflightNameResolver$1
+[[1;33mWARNING[m]   - io.netty.channel.AbstractChannel$AbstractUnsafe$8
+[[1;33mWARNING[m]   - io.netty.handler.codec.smtp.DefaultSmtpRequest
+[[1;33mWARNING[m]   - io.netty.handler.codec.redis.RedisMessage
+[[1;33mWARNING[m]   - io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse
+[[1;33mWARNING[m]   - io.netty.handler.timeout.IdleStateHandler
+[[1;33mWARNING[m]   - io.netty.buffer.FixedCompositeByteBuf$Component
+[[1;33mWARNING[m]   - io.netty.handler.codec.http.HttpHeaders
+[[1;33mWARNING[m]   - io.netty.channel.group.ChannelMatchers$ClassMatcher
+[[1;33mWARNING[m]   - 2246 more...
+[[1;33mWARNING[m] minecraft-server-1.12.2-SNAPSHOT.jar, craftbukkit-1.12.2-R0.1-SNAPSHOT.jar define 582 overlapping classes: 
+[[1;33mWARNING[m]   - net.minecraft.server.DispenserRegistry$2
+[[1;33mWARNING[m]   - net.minecraft.server.DispenserRegistry$12
+[[1;33mWARNING[m]   - net.minecraft.server.PathfinderGoalNearestAttackableTargetInsentient
+[[1;33mWARNING[m]   - net.minecraft.server.BlockWaterLily
+[[1;33mWARNING[m]   - net.minecraft.server.PathfinderGoalHurtByTarget
+[[1;33mWARNING[m]   - net.minecraft.server.Entity$4
+[[1;33mWARNING[m]   - net.minecraft.server.BlockGrass
+[[1;33mWARNING[m]   - net.minecraft.server.PlayerChunkMap$5
+[[1;33mWARNING[m]   - net.minecraft.server.EntityHorseChestedAbstract
+[[1;33mWARNING[m]   - net.minecraft.server.Chunk$1
+[[1;33mWARNING[m]   - 572 more...
+[[1;33mWARNING[m] maven-shade-plugin has detected that some class files are
+[[1;33mWARNING[m] present in two or more JARs. When this happens, only one
+[[1;33mWARNING[m] single version of the class is copied to the uber jar.
+[[1;33mWARNING[m] Usually this is not harmful and you can skip these warnings,
+[[1;33mWARNING[m] otherwise try to manually exclude artifacts based on
+[[1;33mWARNING[m] mvn dependency:tree -Ddetail=true and the above output.
+[[1;33mWARNING[m] See http://maven.apache.org/plugins/maven-shade-plugin/
+[[1;34mINFO[m] Replacing original artifact with shaded artifact.
+[[1;34mINFO[m] Replacing /root/spigot/CraftBukkit/target/craftbukkit-1.12.2-R0.1-SNAPSHOT.jar with /root/spigot/CraftBukkit/target/craftbukkit-1.12.2-R0.1-SNAPSHOT-shaded.jar
+[[1;34mINFO[m] Dependency-reduced POM written at: /root/spigot/CraftBukkit/dependency-reduced-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mcraftbukkit[0;1m ---[m
+[[1;34mINFO[m] Installing /root/spigot/CraftBukkit/target/craftbukkit-1.12.2-R0.1-SNAPSHOT.jar to /root/.m2/repository/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /root/spigot/CraftBukkit/dependency-reduced-pom.xml to /root/.m2/repository/org/bukkit/craftbukkit/1.12.2-R0.1-SNAPSHOT/craftbukkit-1.12.2-R0.1-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 01:29 min
+[[1;34mINFO[m] Finished at: 2018-05-22T22:18:51-04:00
+[[1;34mINFO[m] Final Memory: 27M/254M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Rebuilding Forked projects.... 
+From file:///root/spigot/Bukkit
+   2b1f48c..59b49b8  master     -> origin/master
+   2b1f48c..59b49b8  spigot     -> origin/spigot
+HEAD is now at 59b49b8 SPIGOT-3938: Don't cap saturation level in FoodLevelChangeEvent
+Resetting Spigot-API to Bukkit...
+HEAD is now at 59b49b8 SPIGOT-3938: Don't cap saturation level in FoodLevelChangeEvent
+  Applying patches to Spigot-API...
+fatal: Resolve operation not in progress, we are not resuming.
+Applying: POM Changes
+Applying: Skeleton API Implementations
+Applying: Spigot Timings
+Applying: Add PlayerItemDamageEvent
+Applying: BungeeCord Support
+Applying: Add Arrow API
+Applying: Add Particle API
+Applying: Define EntitySpawnEvent and SpawnerSpawnEvent
+Applying: Entity Mount and Dismount Events
+Applying: InventoryClickEvent getClickedInventory
+Applying: Added getAllSessionData() to the Conversation API.
+Applying: Player Collision API
+Applying: Expand Boolean Prompt Values
+Applying: Add Getter for Entity Invulnerability
+Applying: Add respawn API.
+Applying: Implement Locale Getter for Players
+Applying: Add support for fetching hidden players
+Applying: Silenceable Lightning API
+Applying: Remove deprecation on some player lookup methods
+Applying: Add PlayerSpawnLocationEvent.
+Applying: Ease ClassLoader Deadlocks Where Possible
+Applying: Undeprecate Player#updateInventory()V
+Applying: Added isUnbreakable and setUnbreakable to ItemMeta
+Applying: BungeeCord Chat API
+Applying: Add restart API.
+  Patches applied cleanly to Spigot-API
+From file:///root/spigot/CraftBukkit
+ + a01cdb7...1be32de patched    -> origin/patched  (forced update)
+HEAD is now at 1be32de CraftBukkit $ Tue May 22 22:16:48 EDT 2018
+Resetting Spigot-Server to CraftBukkit...
+HEAD is now at 1be32de CraftBukkit $ Tue May 22 22:16:48 EDT 2018
+  Applying patches to Spigot-Server...
+fatal: Resolve operation not in progress, we are not resuming.
+Applying: POM Changes
+Applying: Skeleton API Implementations
+Applying: mc-dev imports
+Applying: Obfuscation Helpers
+Applying: Spigot Configuration
+Applying: Crop Growth Rates
+Applying: Merge tweaks and configuration
+Applying: Async Operation Catching
+Applying: View Distance
+Applying: Spigot Timings
+Applying: Fix Mob Spawning Relative to View Distance
+Applying: Handle Null Tile Entities
+Applying: Item Despawn Rate
+Applying: Entity Activation Range
+Applying: Metrics
+Applying: PlayerItemDamageEvent
+Applying: Entity Tracking Ranges
+Applying: Thread Naming and Tweaks
+Applying: Close Unloaded Save Files
+Applying: Remove -o Option
+Applying: Implement Arrow API
+Applying: Hopper Customisations
+Applying: Allow Disabling of Command Logging
+Applying: Allow Disabling of Command TabComplete
+Applying: Configurable Messages
+Applying: Allow Disabling of Random Lighting Updates
+Applying: Properly Close Inventories
+Applying: Disallow Interaction With Self
+Applying: Entity Mount and Dismount Events
+Applying: Prevent Ghost Players Caused by Plugins
+Applying: Plug World Unload Memory Leak
+Applying: Player Collision API
+Applying: Fully Disable Snooper When Not Required
+Applying: Add Getter for Entity Invulnerability
+Applying: Allow Disabling of 1.6.3 Structure Saving
+Applying: Don't Special Case X Move Value
+Applying: Implement respawn API.
+Applying: Arrow Despawn Rate
+Applying: Watchdog Thread.
+Applying: Fix some chunks not being sent to the client
+Applying: Fix Broken Async Chat
+Applying: Fire PreLogin Events in Offline Mode
+Applying: BungeeCord Support
+Applying: Allow Disabling Zombie Villager Aggression
+Applying: Configurable Amount of Netty Threads
+Applying: Prevent Mineshaft Saving
+Applying: Log Cause of Unexpected Exceptions
+Applying: Particle API
+Applying: Save ticks lived to nbttag
+Applying: Add Option to Nerf Mobs from Spawners
+Applying: Disable Connected Check on setScoreboard
+Applying: Add Late Bind Option
+Applying: Allow statistics to be disabled/forced
+Applying: Try and Debug Crash Reports Crashing
+Applying: Improve AutoSave Mechanism
+Applying: Catch stalling on corrupted map data / NBT arrays.
+Applying: Allow toggling of ZombiePigmen spawning in portal blocks
+Applying: Highly Optimized Tick Loop
+Applying: Configurable Ping Sample Size
+Applying: Add Optional Tick Shuffling
+Applying: Implement Locale Getter for Players
+Applying: Spam Filter Exclusions
+Applying: Add Option to Silence CommandBlock Console
+Applying: Add support for fetching hidden players
+Applying: Allow Disabling Creative Item Filter
+Applying: Cap Channel Registrations
+Applying: Allow vanilla commands to be the main version of a command
+Applying: Implement Silenceable Lightning API
+Applying: Use one PermissibleBase for all Command Blocks
+Applying: Prevent hoppers from loading chunks
+Applying: Guard Entity List
+Applying: Fix ConcurrentModificationException while being idle kicked in a vehicle
+Applying: Cancellable WitherSkull potion effect
+Applying: Descriptive kick reasons instead of Nope!
+Applying: Configurable dragon death and wither spawn sounds
+Applying: Display 'Spigot' in client crashes, server lists and Mojang stats
+Applying: Treat Bungee as Online Mode
+Applying: Add Conversion Message
+Applying: Print Stack on InternalException
+Applying: Use Offline Player Data Once if Required.
+Applying: Use Provided Case for Non Existent Offline Players
+Applying: Check for blank OfflinePlayer Names
+Applying: Fix Player Banning
+Applying: Fix ban expire dates.
+Applying: Correct Ban Expiration
+Applying: Log null TileEntity Owner
+Applying: Convert player skulls async
+Applying: Prevent NoClassDefError crash and notify on crash
+Applying: Check Skull canPlace
+Applying: Fix race condition that could kill connections before they were initiated
+Applying: Configurable UserCache cap
+Applying: Implement PlayerSpawnLocationEvent.
+Applying: Cap Objective Score Length
+Applying: Process conversation input on the main thread. Fixes BUKKIT-5611
+Applying: Configurable save-on-stop-only for UserCache
+Applying: Prevent Unbounded IntCache Growth
+Applying: Cross World Entity Teleportation
+Applying: Limit block placement/interaction packets
+Applying: Better item validation
+Applying: Further Seed Customisation
+Applying: Disable ResourceLeakDetector
+Applying: Add More Information to session.lock Errors
+Applying: Safer JSON Loading
+Applying: Add CommandLine EULA Flag
+Applying: Fix for enchanting table wiping meta when placing stacked items
+Applying: Don't spawn bonus ocelots when plugins spawn ocelots
+Applying: Prevent a crash involving attributes
+Applying: Make "moved wrongly" limit configurable
+Applying: Fix Null Tile Entity Worlds
+Applying: Make "moved too quickly" limit configurable
+Applying: Apply NBTReadLimiter to more things.
+Applying: Allow Attribute Capping.
+Applying: Only fetch an online UUID in online mode
+Applying: Filter attribute modifiers which cause the attribute to go out of its range
+Applying: Plug WorldMap Memory Leak
+Applying: Fix Corrupted Trapped Chest
+Applying: Remove uneeded validation
+Applying: Add Hunger Config Values
+Applying: Make debug logging togglable.
+Applying: Limit TNT Detonations per tick
+Applying: Added isUnbreakable and setUnbreakable to ItemMeta
+Applying: Configurable Hanging Tick
+Applying: Refactor ItemDoor Place
+Applying: BungeeCord Chat API
+Applying: Use Standard List for EntitySlices.
+Applying: Allow Capping (Tile)Entity Tick Time.
+Applying: Use FastMatches for ItemStack Dirty Check
+Applying: Use CLQ for main thread tasks.
+Applying: map decoration fix
+Applying: Use Map for getPlayer(String) lookup.
+Applying: Clear Packet Queue on Disconnect
+Applying: Implement SpawnerSpawnEvent.
+Applying: Don't tick blocks if neighbor chunks aren't loaded
+Applying: Branchless NibbleArray
+Applying: Replace chunk loading / unloading rate throttling.
+Applying: Configurable Advancement Disabling
+Applying: Make unloaded chunk saving more asynchronous
+Applying: Allow changing minimum squid spawn range
+Applying: Cache BlockState.hashCode
+  Patches applied cleanly to Spigot-Server
+*** Spigot patches applied!
+Compiling Spigot & Spigot-API
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Spigot-API
+[[1;34mINFO[m] Spigot-Parent
+[[1;34mINFO[m] Spigot
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding Spigot-API 1.12.2-R0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Downloading: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.2 kB
+                    
+Downloaded: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml (1.2 kB at 1.6 kB/s)
+Downloading: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/bungeecord-chat-1.12-20180513.014306-84.pom
+Progress (1): 1.1 kB
+                    
+Downloaded: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/bungeecord-chat-1.12-20180513.014306-84.pom (1.1 kB at 23 kB/s)
+Downloading: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-parent/1.12-SNAPSHOT/maven-metadata.xml
+Progress (1): 602 B
+                   
+Downloaded: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-parent/1.12-SNAPSHOT/maven-metadata.xml (602 B at 13 kB/s)
+Downloading: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-parent/1.12-SNAPSHOT/bungeecord-parent-1.12-20180513.014254-84.pom
+Progress (1): 1.2 kB
+Progress (1): 2.7 kB
+Progress (1): 5.6 kB
+Progress (1): 6.5 kB
+                    
+Downloaded: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-parent/1.12-SNAPSHOT/bungeecord-parent-1.12-20180513.014254-84.pom (6.5 kB at 94 kB/s)
+Downloading: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/bungeecord-chat-1.12-20180513.014306-84.jar
+Progress (1): 0.9/73 kB
+Progress (1): 2.3/73 kB
+Progress (1): 3.6/73 kB
+Progress (1): 5.0/73 kB
+Progress (1): 6.4/73 kB
+Progress (1): 7.7/73 kB
+Progress (1): 9.1/73 kB
+Progress (1): 10/73 kB 
+Progress (1): 12/73 kB
+Progress (1): 13/73 kB
+Progress (1): 15/73 kB
+Progress (1): 16/73 kB
+Progress (1): 17/73 kB
+Progress (1): 19/73 kB
+Progress (1): 20/73 kB
+Progress (1): 21/73 kB
+Progress (1): 23/73 kB
+Progress (1): 24/73 kB
+Progress (1): 26/73 kB
+Progress (1): 27/73 kB
+Progress (1): 28/73 kB
+Progress (1): 30/73 kB
+Progress (1): 31/73 kB
+Progress (1): 32/73 kB
+Progress (1): 34/73 kB
+Progress (1): 35/73 kB
+Progress (1): 36/73 kB
+Progress (1): 38/73 kB
+Progress (1): 39/73 kB
+Progress (1): 41/73 kB
+Progress (1): 42/73 kB
+Progress (1): 43/73 kB
+Progress (1): 45/73 kB
+Progress (1): 46/73 kB
+Progress (1): 47/73 kB
+Progress (1): 49/73 kB
+Progress (1): 50/73 kB
+Progress (1): 51/73 kB
+Progress (1): 53/73 kB
+Progress (1): 54/73 kB
+Progress (1): 56/73 kB
+Progress (1): 60/73 kB
+Progress (1): 60/73 kB
+Progress (1): 64/73 kB
+Progress (1): 64/73 kB
+Progress (1): 65/73 kB
+Progress (1): 69/73 kB
+Progress (1): 69/73 kB
+Progress (1): 73 kB   
+                   
+Downloaded: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/bungeecord-chat-1.12-20180513.014306-84.jar (73 kB at 71 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] Deleting /root/spigot/Spigot/Spigot-API/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /root/spigot/Spigot/Spigot-API/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /root/spigot/Spigot/Spigot-API/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /root/spigot/Spigot/Spigot-API/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.ChatColorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.305 sec
+Running org.bukkit.BukkitMirrorTest
+Tests run: 500, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.891 sec
+Running org.bukkit.InstrumentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.bukkit.event.SyntheticEventTest
+May 22, 2018 10:19:20 PM org.bukkit.Bukkit setServer
+INFO: This server is running TestServer version Version_null (Implementing API version BukkitVersion_null)
+Invk org.bukkit.event.TestEvent@7bedc48a
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.705 sec
+Running org.bukkit.event.PlayerChatTabCompleteEventTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.499 sec
+Running org.bukkit.util.StringUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Running org.bukkit.util.io.BukkitObjectStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.244 sec
+Running org.bukkit.util.StringUtilStartsWithTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.bukkit.ChatPaginatorTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running org.bukkit.GameModeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.GrassSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.DifficultyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.configuration.file.YamlConfigurationTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.509 sec
+Running org.bukkit.configuration.MemorySectionTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running org.bukkit.configuration.MemoryConfigurationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.bukkit.plugin.TimedRegisteredListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.bukkit.plugin.messaging.StandardMessengerTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Running org.bukkit.plugin.PluginManagerTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.EffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.materials.MaterialDataTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+Running org.bukkit.metadata.MetadataValueAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.bukkit.metadata.LazyMetadataValueTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running org.bukkit.metadata.FixedMetadataValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.metadata.MetadataConversionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.bukkit.metadata.MetadataStoreTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running org.bukkit.NoteTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running org.bukkit.EntityEffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.CoalTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.ArtTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.bukkit.CropStateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.MaterialTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 sec
+Running org.bukkit.TreeSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.LocationTest
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 sec
+Running org.bukkit.DyeColorTest
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+Running org.bukkit.ColorTest
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+Running org.bukkit.conversations.ValidatingPromptTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+Running org.bukkit.conversations.ConversationContextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.bukkit.conversations.ConversationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+
+Results :
+
+Tests run: 929, Failures: 0, Errors: 0, Skipped: 3
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] Building jar: /root/spigot/Spigot/Spigot-API/target/spigot-api-1.12.2-R0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:3.1.0:shade[m [1m(default)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[[1;34mINFO[m] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[[1;34mINFO[m] Including com.google.guava:guava:jar:21.0 in the shaded jar.
+[[1;34mINFO[m] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
+[[1;34mINFO[m] Including org.yaml:snakeyaml:jar:1.19 in the shaded jar.
+[[1;34mINFO[m] Including net.md-5:bungeecord-chat:jar:1.12-SNAPSHOT in the shaded jar.
+[[1;34mINFO[m] Attaching shaded artifact.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mspigot-api[0;1m ---[m
+[[1;34mINFO[m] Installing /root/spigot/Spigot/Spigot-API/target/spigot-api-1.12.2-R0.1-SNAPSHOT.jar to /root/.m2/repository/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/spigot-api-1.12.2-R0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /root/spigot/Spigot/Spigot-API/pom.xml to /root/.m2/repository/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/spigot-api-1.12.2-R0.1-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /root/spigot/Spigot/Spigot-API/target/spigot-api-1.12.2-R0.1-SNAPSHOT-shaded.jar to /root/.m2/repository/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/spigot-api-1.12.2-R0.1-SNAPSHOT-shaded.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding Spigot-Parent dev-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mspigot-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mspigot-parent[0;1m ---[m
+[[1;34mINFO[m] Installing /root/spigot/Spigot/pom.xml to /root/.m2/repository/org/spigotmc/spigot-parent/dev-SNAPSHOT/spigot-parent-dev-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding Spigot 1.12.2-R0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Deleting /root/spigot/Spigot/Spigot-Server/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscriptus:0.2:describe[m [1m(ex-spigot)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Set property "spigot.desc" to "git-Spigot-2086bb0"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mscriptus:0.2:describe[m [1m(ex-craftbukkit)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Set property "craftbukkit.desc" to "-d0a3620"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /root/spigot/Spigot/Spigot-Server/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.20:test[m [1m(default-test)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.bukkit.[1mParticleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.19 s - in org.bukkit.[1mParticleTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mPerMaterialTest[m
+May 22, 2018 10:19:54 PM org.bukkit.Bukkit setServer
+INFO: This server is running org.bukkit.support.DummyServer version null (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6482[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.583 s - in org.bukkit.[1mPerMaterialTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mStatisticsAndAchievementsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.bukkit.[1mStatisticsAndAchievementsTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mWorldTypeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.bukkit.[1mWorldTypeTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mChatTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.[1mChatTest[m
+[[1;34mINFO[m] Running org.bukkit.map.[1mMapTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.map.[1mMapTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mArtTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.[1mArtTest[m
+[[1;34mINFO[m] Running org.bukkit.entity.[1mEnderDragonPhaseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.entity.[1mEnderDragonPhaseTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mMaterialTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.[1mMaterialTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mBiomeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.bukkit.[1mBiomeTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.generator.[1mChunkDataTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.635 s - in org.bukkit.craftbukkit.generator.[1mChunkDataTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mFactoryItemMaterialTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1644[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.727 s - in org.bukkit.craftbukkit.inventory.[1mFactoryItemMaterialTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mNMSCraftItemStackTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.bukkit.craftbukkit.inventory.[1mNMSCraftItemStackTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mItemMetaTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 s - in org.bukkit.craftbukkit.inventory.[1mItemMetaTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mItemFactoryTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.888 s - in org.bukkit.craftbukkit.inventory.[1mItemFactoryTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mItemMetaImplementationOverrideTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m117[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in org.bukkit.craftbukkit.inventory.[1mItemMetaImplementationOverrideTest[m
+[[1;34mINFO[m] Running org.bukkit.craftbukkit.inventory.[1mItemMetaCloneTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.bukkit.craftbukkit.inventory.[1mItemMetaCloneTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mDyeColorsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m32[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.bukkit.[1mDyeColorsTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mSoundTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in org.bukkit.[1mSoundTest[m
+[[1;34mINFO[m] Running org.bukkit.potion.[1mPotionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.bukkit.potion.[1mPotionTest[m
+[[1;34mINFO[m] Running org.bukkit.[1mNibbleArrayTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.bukkit.[1mNibbleArrayTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 8314, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.0.2:jar[m [1m(default-jar)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Building jar: /root/spigot/Spigot/Spigot-Server/target/spigot-1.12.2-R0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:3.1.0:shade[m [1m(default)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Including io.netty:netty-all:jar:4.1.24.Final in the shaded jar.
+[[1;34mINFO[m] Including org.spigotmc:spigot-api:jar:1.12.2-R0.1-SNAPSHOT in the shaded jar.
+[[1;34mINFO[m] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[[1;34mINFO[m] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[[1;34mINFO[m] Including com.google.guava:guava:jar:21.0 in the shaded jar.
+[[1;34mINFO[m] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
+[[1;34mINFO[m] Including org.yaml:snakeyaml:jar:1.19 in the shaded jar.
+[[1;34mINFO[m] Including net.md-5:bungeecord-chat:jar:1.12-SNAPSHOT in the shaded jar.
+[[1;34mINFO[m] Including org.spigotmc:minecraft-server:jar:1.12.2-SNAPSHOT in the shaded jar.
+[[1;34mINFO[m] Including net.sf.jopt-simple:jopt-simple:jar:5.0.4 in the shaded jar.
+[[1;34mINFO[m] Including jline:jline:jar:2.12.1 in the shaded jar.
+[[1;34mINFO[m] Including org.xerial:sqlite-jdbc:jar:3.21.0.1 in the shaded jar.
+[[1;34mINFO[m] Including mysql:mysql-connector-java:jar:5.1.45 in the shaded jar.
+[[1;34mINFO[m] Including net.sf.trove4j:trove4j:jar:3.0.3 in the shaded jar.
+[[1;33mWARNING[m] minecraft-server-1.12.2-SNAPSHOT.jar, guava-21.0.jar define 1837 overlapping classes: 
+[[1;33mWARNING[m]   - com.google.common.collect.ImmutableMapValues$1
+[[1;33mWARNING[m]   - com.google.common.io.LineProcessor
+[[1;33mWARNING[m]   - com.google.common.util.concurrent.AbstractService$5
+[[1;33mWARNING[m]   - com.google.common.io.BaseEncoding$StandardBaseEncoding$2
+[[1;33mWARNING[m]   - com.google.common.io.ByteProcessor
+[[1;33mWARNING[m]   - com.google.common.math.package-info
+[[1;33mWARNING[m]   - com.google.common.util.concurrent.SimpleTimeLimiter
+[[1;33mWARNING[m]   - com.google.common.cache.AbstractCache$StatsCounter
+[[1;33mWARNING[m]   - com.google.common.util.concurrent.CycleDetectingLockFactory$Policies
+[[1;33mWARNING[m]   - com.google.common.primitives.UnsignedInts$LexicographicalComparator
+[[1;33mWARNING[m]   - 1827 more...
+[[1;33mWARNING[m] minecraft-server-1.12.2-SNAPSHOT.jar, spigot-1.12.2-R0.1-SNAPSHOT.jar define 626 overlapping classes: 
+[[1;33mWARNING[m]   - net.minecraft.server.DispenserRegistry$2
+[[1;33mWARNING[m]   - net.minecraft.server.DispenserRegistry$12
+[[1;33mWARNING[m]   - net.minecraft.server.PathfinderGoalNearestAttackableTargetInsentient
+[[1;33mWARNING[m]   - net.minecraft.server.BlockWaterLily
+[[1;33mWARNING[m]   - net.minecraft.server.PathfinderGoalHurtByTarget
+[[1;33mWARNING[m]   - net.minecraft.server.Entity$4
+[[1;33mWARNING[m]   - net.minecraft.server.BlockGrass
+[[1;33mWARNING[m]   - net.minecraft.server.PlayerChunkMap$5
+[[1;33mWARNING[m]   - net.minecraft.server.EntityHorseChestedAbstract
+[[1;33mWARNING[m]   - net.minecraft.server.Chunk$1
+[[1;33mWARNING[m]   - 616 more...
+[[1;33mWARNING[m] minecraft-server-1.12.2-SNAPSHOT.jar, gson-2.8.0.jar define 174 overlapping classes: 
+[[1;33mWARNING[m]   - com.google.gson.internal.bind.JsonTreeWriter
+[[1;33mWARNING[m]   - com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl
+[[1;33mWARNING[m]   - com.google.gson.internal.Excluder
+[[1;33mWARNING[m]   - com.google.gson.JsonDeserializationContext
+[[1;33mWARNING[m]   - com.google.gson.Gson$6
+[[1;33mWARNING[m]   - com.google.gson.FieldNamingPolicy$5
+[[1;33mWARNING[m]   - com.google.gson.internal.$Gson$Types
+[[1;33mWARNING[m]   - com.google.gson.internal.LinkedTreeMap$KeySet
+[[1;33mWARNING[m]   - com.google.gson.internal.UnsafeAllocator$2
+[[1;33mWARNING[m]   - com.google.gson.internal.bind.SqlDateTypeAdapter$1
+[[1;33mWARNING[m]   - 164 more...
+[[1;33mWARNING[m] minecraft-server-1.12.2-SNAPSHOT.jar, netty-all-4.1.24.Final.jar define 2256 overlapping classes: 
+[[1;33mWARNING[m]   - io.netty.handler.codec.http.multipart.InterfaceHttpData$HttpDataType
+[[1;33mWARNING[m]   - io.netty.resolver.dns.InflightNameResolver$1
+[[1;33mWARNING[m]   - io.netty.channel.AbstractChannel$AbstractUnsafe$8
+[[1;33mWARNING[m]   - io.netty.handler.codec.smtp.DefaultSmtpRequest
+[[1;33mWARNING[m]   - io.netty.handler.codec.redis.RedisMessage
+[[1;33mWARNING[m]   - io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse
+[[1;33mWARNING[m]   - io.netty.handler.timeout.IdleStateHandler
+[[1;33mWARNING[m]   - io.netty.buffer.FixedCompositeByteBuf$Component
+[[1;33mWARNING[m]   - io.netty.handler.codec.http.HttpHeaders
+[[1;33mWARNING[m]   - io.netty.channel.group.ChannelMatchers$ClassMatcher
+[[1;33mWARNING[m]   - 2246 more...
+[[1;33mWARNING[m] maven-shade-plugin has detected that some class files are
+[[1;33mWARNING[m] present in two or more JARs. When this happens, only one
+[[1;33mWARNING[m] single version of the class is copied to the uber jar.
+[[1;33mWARNING[m] Usually this is not harmful and you can skip these warnings,
+[[1;33mWARNING[m] otherwise try to manually exclude artifacts based on
+[[1;33mWARNING[m] mvn dependency:tree -Ddetail=true and the above output.
+[[1;33mWARNING[m] See http://maven.apache.org/plugins/maven-shade-plugin/
+[[1;34mINFO[m] Replacing original artifact with shaded artifact.
+[[1;34mINFO[m] Replacing /root/spigot/Spigot/Spigot-Server/target/spigot-1.12.2-R0.1-SNAPSHOT.jar with /root/spigot/Spigot/Spigot-Server/target/spigot-1.12.2-R0.1-SNAPSHOT-shaded.jar
+[[1;34mINFO[m] Dependency-reduced POM written at: /root/spigot/Spigot/Spigot-Server/dependency-reduced-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mspigot[0;1m ---[m
+[[1;34mINFO[m] Installing /root/spigot/Spigot/Spigot-Server/target/spigot-1.12.2-R0.1-SNAPSHOT.jar to /root/.m2/repository/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/spigot-1.12.2-R0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /root/spigot/Spigot/Spigot-Server/dependency-reduced-pom.xml to /root/.m2/repository/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/spigot-1.12.2-R0.1-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Spigot-API ......................................... [1;32mSUCCESS[m [ 24.744 s]
+[[1;34mINFO[m] Spigot-Parent ...................................... [1;32mSUCCESS[m [  0.167 s]
+[[1;34mINFO[m] Spigot ............................................. [1;32mSUCCESS[m [01:29 min]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 01:55 min
+[[1;34mINFO[m] Finished at: 2018-05-22T22:20:56-04:00
+[[1;34mINFO[m] Final Memory: 43M/335M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Success! Everything compiled successfully. Copying final .jar files now.
+Copying craftbukkit-1.12.2-R0.1-SNAPSHOT.jar to /root/spigot/./craftbukkit-1.12.2.jar
+  - Saved as ./craftbukkit-1.12.2.jar
+Copying spigot-1.12.2-R0.1-SNAPSHOT.jar to /root/spigot/./spigot-1.12.2.jar
+  - Saved as ./spigot-1.12.2.jar

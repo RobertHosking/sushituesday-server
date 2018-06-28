@@ -1,0 +1,737 @@
+[11:29:05] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[11:29:05] [Server thread/INFO]: Loading properties
+[11:29:05] [Server thread/INFO]: Default game type: SURVIVAL
+[11:29:05] [Server thread/INFO]: Generating keypair
+[11:29:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:29:06] [Server thread/INFO]: Using epoll channel type
+[11:29:07] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-a3decfd (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[11:29:09] [Server thread/INFO]: [AutoSaveWorld] Loading AutoSaveWorld v4.15
+[11:29:09] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[11:29:09] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v1.83
+[11:29:09] [Server thread/INFO]: [SerialKey] Loading SerialKey v0.3
+[11:29:09] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
+[11:29:09] [Server thread/INFO]: [AutoMessageDisplayer] Loading AutoMessageDisplayer v0.11
+[11:29:09] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.4
+[11:29:09] [Server thread/INFO]: [mcMMOHorse] Loading mcMMOHorse v4.3.7
+[11:29:09] [Server thread/INFO]: [NickNamesX] Loading NickNamesX v3.0
+[11:29:09] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.5.09-SNAPSHOT
+[11:29:09] [Server thread/INFO]: [ServerListPlus] Loading ServerListPlus v3.4.8
+[11:29:09] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[11:29:09] [Server thread/INFO]: [KeepDeathDrop] Loading KeepDeathDrop v1.0.3
+[11:29:09] [Server thread/INFO]: [bPermissions] Loading bPermissions v2.12
+[11:29:09] [Server thread/INFO]: [LockSecurity] Loading LockSecurity v2.0.0
+[11:29:09] [Server thread/INFO]: [dynmap] Loading dynmap v2.5-Dev201706100405
+[11:29:09] [Server thread/INFO]: [dynmap] version=git-Bukkit-a3decfd (MC: 1.12.2)
+[11:29:09] [Server thread/INFO]: [dynmap] Mod Support API available
+[11:29:09] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15
+[11:29:09] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.5.09-SNAPSHOT
+[11:29:11] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[11:29:11] [Server thread/INFO]: [Vault][Permission] bPermissions2 hooked.
+[11:29:11] [Server thread/INFO]: [Vault] [Permission] bPermissions 2 found: Loaded
+[11:29:11] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:29:11] [Server thread/INFO]: [Vault][Chat] bPermissions2 hooked.
+[11:29:11] [Server thread/INFO]: [Vault] [Chat] bPermssions2 found: Loaded
+[11:29:11] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[11:29:11] [Server thread/INFO]: Preparing level "world"
+[11:29:13] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1204458917662567272)
+[11:29:16] [Server thread/INFO]: Preparing spawn area: 0%
+[11:29:17] [Server thread/INFO]: Preparing spawn area: 9%
+[11:29:18] [Server thread/INFO]: Preparing spawn area: 21%
+[11:29:19] [Server thread/INFO]: Preparing spawn area: 37%
+[11:29:20] [Server thread/INFO]: Preparing spawn area: 52%
+[11:29:21] [Server thread/INFO]: Preparing spawn area: 89%
+[11:29:21] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3773245919112637208)
+[11:29:23] [Server thread/INFO]: Preparing spawn area: 40%
+[11:29:24] [Server thread/INFO]: Preparing spawn area: 85%
+[11:29:24] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3773245919112637208)
+[11:29:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[11:29:25] [Server thread/INFO]: WEPIF: bPermissions detected! Using bPermissions for permissions
+[11:29:25] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[11:29:25] [Server thread/WARN]: [WorldEdit] WorldEdit has detected you are using Java 7 (based on detected version 9.0.1).
+[11:29:25] [Server thread/WARN]: [WorldEdit] WorldEdit will stop supporting Java less than version 8 in the future, due to Java 7 being EOL since April 2015. Please update your server to Java 8.
+[11:29:25] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v1.83
+[11:29:26] [Server thread/INFO]: [SerialKey] Enabling SerialKey v0.3
+[11:29:26] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[11:29:26] [Server thread/INFO]: [ClearLag] Loading modules...
+[11:29:26] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[11:29:26] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[11:29:26] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[11:29:26] [Thread-6/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[11:29:26] [Server thread/INFO]: [AutoMessageDisplayer] Enabling AutoMessageDisplayer v0.11
+[11:29:26] [Server thread/INFO]: Waw, an amazing plugin powered by LotuxPunk ! :-)
+[11:29:26] [Server thread/INFO]: [AutoMessageDisplayer] Config.yml found, loading!
+[11:29:26] [Server thread/INFO]: 14 messages loaded
+[11:29:26] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.4
+[11:29:27] [Server thread/INFO]: [mcMMOHorse] Enabling mcMMOHorse v4.3.7
+[11:29:27] [Server thread/WARN]: java.io.IOException: No such file or directory
+[11:29:27] [Server thread/WARN]: 	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
+[11:29:27] [Server thread/WARN]: 	at java.base/java.io.File.createNewFile(File.java:1024)
+[11:29:27] [Server thread/WARN]: 	at com.blueskullgames.horserpg.configs.HorseConfigHandler.<init>(HorseConfigHandler.java:37)
+[11:29:27] [Server thread/WARN]: 	at com.blueskullgames.horserpg.HorseRPG.onEnable(HorseRPG.java:1097)
+[11:29:27] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[11:29:27] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:329)
+[11:29:27] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
+[11:29:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:367)
+[11:29:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:328)
+[11:29:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:412)
+[11:29:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:373)
+[11:29:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:328)
+[11:29:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:248)
+[11:29:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:522)
+[11:29:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:844)
+[11:29:27] [Server thread/ERROR]: [mcMMOHorse] Could not log to /root/spigot/plugins/AUpdater/updater.log!
+java.nio.file.NoSuchFileException: plugins/AUpdater/updater.log
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:215) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:434) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:218) ~[?:?]
+	at java.nio.file.Files.write(Files.java:3417) ~[?:?]
+	at com.blueskullgames.horserpg.Updater.log(Updater.java:481) [mcMMOHorses%20v4.3.7.jar:?]
+	at com.blueskullgames.horserpg.Updater.<init>(Updater.java:86) [mcMMOHorses%20v4.3.7.jar:?]
+	at com.blueskullgames.horserpg.Updater.<init>(Updater.java:133) [mcMMOHorses%20v4.3.7.jar:?]
+	at com.blueskullgames.horserpg.HorseRPG.onEnable(HorseRPG.java:1143) [mcMMOHorses%20v4.3.7.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:329) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:367) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:328) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:412) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:373) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:328) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:248) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:522) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+[11:29:27] [Server thread/WARN]: [AutoSaveWorld] Plugin mcMMOHorse attempted to establish connection https://api.curseforge.com/servermods/files?projectIds=61609 in main server thread
+[11:29:27] [Server thread/WARN]: [AutoSaveWorld] Plugin mcMMOHorse attempted to establish connection socket://api.curseforge.com:443 in main server thread
+[11:29:27] [Thread-5/INFO]: [Skyupdater] No update found for 'SerialKey'.
+[11:29:27] [Thread-6/INFO]: [ClearLag] No updates found!
+[11:29:27] [Server thread/INFO]: [NickNamesX] Enabling NickNamesX v3.0
+[11:29:27] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.4.8
+[11:29:27] [Server thread/ERROR]: [ServerListPlus] ProtocolLib IS NOT INSTALLED! Most features will NOT work!
+[11:29:28] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[11:29:28] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[11:29:28] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[11:29:28] [Server thread/ERROR]: [ServerListPlus] ProtocolLib IS NOT INSTALLED! Most features will NOT work!
+[11:29:28] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[11:29:28] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[11:29:28] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
+[11:29:28] [Server thread/INFO]: [KeepDeathDrop] Enabling KeepDeathDrop v1.0.3
+[11:29:28] [Server thread/INFO]: [KeepDeathDrop] Enabled!
+[11:29:28] [Server thread/INFO]: [bPermissions] Enabling bPermissions v2.12
+[11:29:28] [Server thread/INFO]: [bPermissions] Loaded 0 custom nodes!
+[11:29:28] [MainThread/LOAD/INFO]: [bPermissions] Permissions for world world has loaded!
+[11:29:28] [MainThread/LOAD/INFO]: [bPermissions] Permissions for world world_nether has loaded!
+[11:29:28] [MainThread/LOAD/INFO]: [bPermissions] Permissions for world world_the_end has loaded!
+[11:29:28] [Server thread/INFO]: WEPIF: bPermissions detected! Using bPermissions for permissions
+[11:29:28] [MainThread/LOAD/INFO]: [bPermissions] Permissions for world global has loaded!
+[11:29:28] [Server thread/INFO]: [LockSecurity] Enabling LockSecurity v2.0.0
+[11:29:28] [Server thread/INFO]: [LockSecurity] Found and loaded locale "fr_CA"
+[11:29:28] [Server thread/INFO]: [LockSecurity] Found and loaded locale "en_CA"
+[11:29:28] [Server thread/INFO]: [LockSecurity] Registering events...
+[11:29:28] [Server thread/INFO]: [LockSecurity] Registering plugin commands...
+[11:29:28] [Server thread/INFO]: [LockSecurity] Registering custom crafting recipes...
+[11:29:28] [Server thread/INFO]: [LockSecurity] Loading player JSON data from file. This may take a while
+[11:29:28] [Server thread/WARN]: [AutoSaveWorld] Plugin LockSecurity attempted to establish connection https://api.spiget.org/v2/resources/12650/versions?sort=-name in main server thread
+[11:29:28] [Server thread/WARN]: [AutoSaveWorld] Plugin LockSecurity attempted to establish connection socket://api.spiget.org:443 in main server thread
+[11:29:28] [Server thread/INFO]: [dynmap] Enabling dynmap v2.5-Dev201706100405
+[11:29:29] [Server thread/INFO]: [dynmap] Using bPermissions 2.12 for access control
+[11:29:32] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[11:29:34] [Server thread/INFO]: [dynmap] Loaded 23 shaders.
+[11:29:34] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[11:29:34] [Server thread/INFO]: [dynmap] Loaded 14 lightings.
+[11:29:34] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[11:29:34] [Server thread/INFO]: [dynmap] version 2.5-Dev201706100405 is enabled - core version 2.5-Dev201706100401
+[11:29:34] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world'.
+[11:29:35] [Server thread/INFO]: [dynmap] World 'world_nether' disabled
+[11:29:35] [Server thread/INFO]: [dynmap] World 'world_the_end' disabled
+[11:29:35] [Server thread/INFO]: [dynmap] Enabled
+[11:29:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:29:35] [Server thread/INFO]: Done (23.777s)! For help, type "help" or "?"
+[11:29:35] [pool-3-thread-5/INFO]: [Vault] Checking for Updates ... 
+[11:29:35] [pool-3-thread-3/INFO]: [PlugMan] No update was found.
+[11:29:35] [pool-3-thread-5/INFO]: [Vault] No new version available
+[11:29:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6782ms behind, skipping 135 tick(s)
+[11:35:54] [Server thread/INFO]: [m
+[11:35:54] [Server thread/INFO]: [0;32;1mHelp Page 1:[m
+[11:35:54] [Server thread/INFO]: [0;36;1m/h help [0;37;22m[page] [0;32;1m- Displays horse commands.[m
+[11:35:54] [Server thread/INFO]: [0;36;1m/h me [0;32;1m- Displays your info.[m
+[11:35:54] [Server thread/INFO]: [0;36;1m/h claim [0;32;1m- Claims the horse you are riding.[m
+[11:35:54] [Server thread/INFO]: [0;36;1m/h stats [0;37;22m[horse] [0;32;1m- Displays your horse info.[m
+[11:35:54] [Server thread/INFO]: [0;36;1m/h summon [0;32;1m- Spawns your horse.[m
+[11:35:54] [Server thread/INFO]: [0;36;1m/h banish [0;32;1m- Despawns your horse.[m
+[11:35:54] [Server thread/INFO]: [0;36;1m/h kill [0;33;1m<name> [0;32;1m- Removes an owned horse for good.[m
+[11:35:54] [Server thread/INFO]: [0;36;1m/h breed [0;37;22m[name] [0;32;1m- Breeds a horse.[m
+[11:36:58] [Server thread/INFO]: [AutoMessageDisplayer] Disabling AutoMessageDisplayer v0.11
+[11:36:58] [Server thread/INFO]: [AutoMessageDisplayer] Enabling AutoMessageDisplayer v0.11
+[11:36:58] [Server thread/INFO]: Waw, an amazing plugin powered by LotuxPunk ! :-)
+[11:36:59] [Server thread/INFO]: [AutoMessageDisplayer] Config.yml found, loading!
+[11:36:59] [Server thread/INFO]: 13 messages loaded
+[11:36:59] [Server thread/INFO]: [0;37;22m[[0;32;1mPlugMan[0;37;22m] [0;34;1mAutoMessageDisplayer has been reloaded.[m
+[11:43:00] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[11:49:40] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[11:57:20] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[12:09:40] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[12:11:40] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[12:26:00] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[12:29:40] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[12:34:13] [User Authenticator #1/INFO]: UUID of player thedubiousbean is 49c279eb-bae0-47c6-964d-b3f62242ae05
+[12:34:14] [Server thread/INFO]: thedubiousbean[/24.172.241.150:39166] logged in with entity id 594 at ([world]2700.017289538606, 15.0, -148.48029129130722)
+[12:34:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4082ms behind, skipping 81 tick(s)
+[12:35:09] [Server thread/INFO]: thedubiousbean issued server command: /gamemode creative
+[12:35:09] [Server thread/INFO]: [thedubiousbean: Set own game mode to Creative Mode]
+[12:35:33] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[12:40:22] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[12:43:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3240ms behind, skipping 64 tick(s)
+[12:43:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2142ms behind, skipping 42 tick(s)
+[12:45:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2222ms behind, skipping 44 tick(s)
+[12:49:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[12:54:44] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:08:02] [Server thread/INFO]: thedubiousbean lost connection: Timed out
+[13:08:02] [Server thread/INFO]: Robert&e left the game
+[13:08:03] [Server thread/WARN]: handleDisconnection() called twice
+[13:09:04] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:09:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[13:23:24] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:29:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[13:37:44] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:49:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[13:52:04] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[14:06:24] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[14:09:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[14:20:44] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[14:29:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[14:35:04] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[14:49:24] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[14:49:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[15:03:44] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[15:09:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[15:10:14] [Server thread/INFO]: com.mojang.authlib.GameProfile@366083ba[id=<null>,name=thedubiousbean,properties={},legacy=false] (/67.207.88.196:44336) lost connection: Disconnected
+[15:12:30] [User Authenticator #2/INFO]: UUID of player thedubiousbean is 49c279eb-bae0-47c6-964d-b3f62242ae05
+[15:12:30] [Server thread/INFO]: thedubiousbean[/67.207.88.196:44394] logged in with entity id 50623 at ([world]381.1942739512896, 76.90538259834887, 817.4613095005018)
+[15:18:04] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[15:18:32] [Server thread/INFO]: thedubiousbean lost connection: Timed out
+[15:18:33] [Server thread/INFO]: Robert&e left the game
+[15:20:31] [Server thread/INFO]: com.mojang.authlib.GameProfile@5ab1b498[id=<null>,name=thedubiousbean,properties={},legacy=false] (/71.29.187.224:43448) lost connection: Disconnected
+[15:20:56] [Server thread/INFO]: com.mojang.authlib.GameProfile@1843ed71[id=<null>,name=thedubiousbean,properties={},legacy=false] (/71.29.187.224:43466) lost connection: Disconnected
+[15:23:39] [User Authenticator #3/INFO]: UUID of player thedubiousbean is 49c279eb-bae0-47c6-964d-b3f62242ae05
+[15:23:39] [Server thread/INFO]: thedubiousbean[/71.29.187.224:43528] logged in with entity id 53597 at ([world]380.69999998807907, 76.36630381283116, 823.9650007821858)
+[15:26:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2224ms behind, skipping 44 tick(s)
+[15:29:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[15:32:24] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[15:35:13] [Server thread/INFO]: thedubiousbean lost connection: Timed out
+[15:35:13] [Server thread/INFO]: Robert&e left the game
+[15:36:19] [User Authenticator #4/INFO]: UUID of player thedubiousbean is 49c279eb-bae0-47c6-964d-b3f62242ae05
+[15:36:19] [Server thread/INFO]: thedubiousbean[/71.29.185.240:43654] logged in with entity id 67939 at ([world]382.48750001192093, 72.0, 815.7446079564227)
+[15:46:44] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[15:48:11] [Server thread/INFO]: thedubiousbean lost connection: Disconnected
+[15:48:11] [Server thread/INFO]: Robert&e left the game
+[15:49:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[16:01:04] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[16:04:17] [User Authenticator #5/INFO]: UUID of player elephant115 is 5ac4955c-ec49-4042-a4c9-d171cef55c98
+[16:04:18] [Server thread/INFO]: elephant115[/24.172.241.150:57440] logged in with entity id 81903 at ([world]1428.2667670449243, 74.5, 1166.7177219069702)
+[16:05:42] [Server thread/ERROR]: Could not pass event CraftItemEvent to mcMMOHorse v4.3.7
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:499) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1820) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+Caused by: java.lang.NoSuchMethodError: org.bukkit.event.inventory.InventoryClickEvent.getClickedInventory()Lorg/bukkit/inventory/Inventory;
+	at com.blueskullgames.horserpg.listeners.HorseListener.onInventoryClick(HorseListener.java:33) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor94.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	... 15 more
+[16:06:27] [Server thread/ERROR]: Could not pass event InventoryClickEvent to mcMMOHorse v4.3.7
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:499) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1820) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+Caused by: java.lang.NoSuchMethodError: org.bukkit.event.inventory.InventoryClickEvent.getClickedInventory()Lorg/bukkit/inventory/Inventory;
+	at com.blueskullgames.horserpg.listeners.HorseListener.onInventoryClick(HorseListener.java:33) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor94.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	... 15 more
+[16:06:38] [Server thread/ERROR]: Could not pass event InventoryClickEvent to mcMMOHorse v4.3.7
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:499) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1820) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+Caused by: java.lang.NoSuchMethodError: org.bukkit.event.inventory.InventoryClickEvent.getClickedInventory()Lorg/bukkit/inventory/Inventory;
+	at com.blueskullgames.horserpg.listeners.HorseListener.onInventoryClick(HorseListener.java:33) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor94.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	... 15 more
+[16:09:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[16:15:24] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[16:21:32] [Server thread/INFO]: elephant115 lost connection: Disconnected
+[16:21:32] [Server thread/INFO]: John&e left the game
+[16:29:44] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[16:29:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[16:35:09] [User Authenticator #6/INFO]: UUID of player thedubiousbean is 49c279eb-bae0-47c6-964d-b3f62242ae05
+[16:35:09] [Server thread/INFO]: thedubiousbean[/24.172.241.150:18601] logged in with entity id 197574 at ([world]390.7074395418167, 76.86302518885907, 815.6999999880791)
+[16:41:56] [Server thread/INFO]: thedubiousbean issued server command: //copy
+[16:42:05] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:42:14] [Server thread/INFO]: thedubiousbean issued server command: //undo
+[16:42:20] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:43:02] [Server thread/INFO]: thedubiousbean lost connection: Timed out
+[16:43:02] [Server thread/INFO]: Robert&e left the game
+[16:43:15] [User Authenticator #7/INFO]: UUID of player thedubiousbean is 49c279eb-bae0-47c6-964d-b3f62242ae05
+[16:43:15] [Server thread/INFO]: thedubiousbean[/24.172.241.150:32786] logged in with entity id 205461 at ([world]377.9540241462549, 72.0, 810.1227809726887)
+[16:43:27] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:43:37] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:43:46] [Server thread/INFO]: thedubiousbean issued server command: //undo
+[16:43:50] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:43:59] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:44:04] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[16:44:18] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:44:27] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:44:40] [Server thread/INFO]: thedubiousbean issued server command: //undo
+[16:44:43] [Server thread/INFO]: thedubiousbean issued server command: //undo
+[16:44:45] [Server thread/INFO]: thedubiousbean issued server command: //undo
+[16:44:57] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:45:08] [Server thread/INFO]: thedubiousbean issued server command: //undo
+[16:45:13] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:45:24] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:45:40] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:46:02] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:46:08] [Server thread/INFO]: thedubiousbean issued server command: //undo
+[16:46:15] [Server thread/INFO]: thedubiousbean issued server command: //paste
+[16:46:46] [Server thread/ERROR]: Could not pass event InventoryCreativeEvent to mcMMOHorse v4.3.7
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:499) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1976) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PacketPlayInSetCreativeSlot.a(SourceFile:23) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PacketPlayInSetCreativeSlot.a(SourceFile:9) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+Caused by: java.lang.NoSuchMethodError: org.bukkit.event.inventory.InventoryClickEvent.getClickedInventory()Lorg/bukkit/inventory/Inventory;
+	at com.blueskullgames.horserpg.listeners.HorseListener.onInventoryClick(HorseListener.java:33) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor94.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[craftbukkit-1.12.2.jar:git-Bukkit-a3decfd]
+	... 15 more
+[16:49:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[16:51:03] [Server thread/WARN]: thedubiousbean moved too quickly! -24.016733722525487,19.16436604365734,30.0465569248247
+[16:51:11] [Server thread/INFO]: thedubiousbean lost connection: Timed out
+[16:51:11] [Server thread/INFO]: Robert&e left the game
+[16:51:11] [Server thread/WARN]: handleDisconnection() called twice
+[16:51:36] [User Authenticator #8/INFO]: UUID of player elephant115 is 5ac4955c-ec49-4042-a4c9-d171cef55c98
+[16:51:36] [Server thread/INFO]: elephant115[/24.172.241.150:15002] logged in with entity id 217607 at ([world]1361.865520541967, 200.0, 486.6750946022133)
+[16:52:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2233ms behind, skipping 44 tick(s)
+[16:58:24] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[17:00:30] [Server thread/INFO]: elephant115 lost connection: Disconnected
+[17:00:30] [Server thread/INFO]: John&e left the game
+[17:09:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[17:12:44] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[17:27:04] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[17:29:24] [AutoSaveWorld AutoBackupThread/INFO]: [0;34;1mAutoBackuping[m
+[17:29:30] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.6.2.mca
+[17:29:30] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-2.0.mca
+[17:29:30] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-2.-2.mca
+[17:29:30] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.7.-1.mca
+[17:29:30] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.7.5.mca
+[17:29:30] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-1.0.mca
+[17:29:30] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.4.2.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-2.2.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.2.1.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.6.7.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.6.-2.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.0.9.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.3.0.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-4.3.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.0.0.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-2.3.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.5.4.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.0.10.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.2.2.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-3.0.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.1.-2.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.1.3.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.3.6.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-3.2.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-7.1.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-6.1.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.4.4.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-5.1.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.5.1.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.3.-2.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.5.6.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.3.4.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.4.8.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-2.1.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-4.-1.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.4.6.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.1.1.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-6.3.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.6.-4.mca
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_9_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_7_-3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_-1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-7_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_7_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_4_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_-1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_8_-1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-1_3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_-5_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_7_7_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-2_4_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-3_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_-4_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_4_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-2_5_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-2_-1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_6_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_-2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_10_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_-3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-7_1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_-2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-4_-2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-5_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_7_6_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_0_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_8_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_5_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_5_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-3_3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_10_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_9_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_-1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_10_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_8_0_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_5_-2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_-1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_7_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-1_1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-3_-2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-4_1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_0_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_4_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-5_3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-2_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_7_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-5_-2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_5_5_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_6_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-1_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-1_0_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_5_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-4_-1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_-4_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_-3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_-1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-6_1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_5_-3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_4_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_0_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_-4_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-4_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-1_-3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_-4_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_9_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-2_1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_7_0_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-4_3_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_-2_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_5_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_0_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/m[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world_nether/mcmmo_regions/mcmmo_0_-1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world_nether/mcmmo_regions/mcmmo_-1_0_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world_nether/mcmmo_regions/mcmmo_-1_-1_.mcm
+[17:29:31] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world_nether/mcmmo_regions/mcmmo_0_0_.mcm
+[17:29:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[17:29:44] [pool-3-thread-169/INFO]: [Vault] Checking for Updates ... 
+[17:29:44] [pool-3-thread-169/INFO]: [Vault] No new version available
+[17:31:52] [AutoSaveWorld AutoBackupThread/INFO]: [0;34;1mAutoBackup Complete[m
+[17:41:24] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[17:49:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[17:55:44] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[18:00:08] [Server thread/WARN]: java.io.IOException: No space left on device
+[18:00:08] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+[18:00:08] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:319)
+[18:00:08] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.writeHeader(GZIPOutputStream.java:183)
+[18:00:08] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:95)
+[18:00:08] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:110)
+[18:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(SourceFile:34)
+[18:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.saveWorldData(WorldNBTStorage.java:120)
+[18:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.ServerNBTManager.saveWorldData(SourceFile:45)
+[18:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1084)
+[18:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1027)
+[18:00:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:747)
+[18:00:08] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread.saveWorldNormal(AutoSaveThread.java:159)
+[18:00:08] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread.saveWorld(AutoSaveThread.java:150)
+[18:00:08] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread.access$000(AutoSaveThread.java:36)
+[18:00:08] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread$2.run(AutoSaveThread.java:112)
+[18:00:08] [Server thread/WARN]: 	at autosaveworld.utils.SchedulerUtils$1.run(SchedulerUtils.java:45)
+[18:00:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53)
+[18:00:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
+[18:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:690)
+[18:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371)
+[18:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651)
+[18:00:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555)
+[18:00:08] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:844)
+[18:00:08] [Server thread/WARN]: java.io.IOException: No space left on device
+[18:00:08] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+[18:00:08] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.write(FileOutputStre[18:09:44] [Server thread/INFO]: [mcMMOHorse] &aAll horses saved to database.
+[18:10:04] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[18:15:09] [Server thread/WARN]: java.io.IOException: No space left on device
+[18:15:09] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+[18:15:09] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:319)
+[18:15:09] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.writeHeader(GZIPOutputStream.java:183)
+[18:15:09] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:95)
+[18:15:09] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:110)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(SourceFile:34)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.saveWorldData(WorldNBTStorage.java:120)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.ServerNBTManager.saveWorldData(SourceFile:45)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1084)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1027)
+[18:15:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:747)
+[18:15:09] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread.saveWorldNormal(AutoSaveThread.java:159)
+[18:15:09] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread.saveWorld(AutoSaveThread.java:150)
+[18:15:09] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread.access$000(AutoSaveThread.java:36)
+[18:15:09] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread$2.run(AutoSaveThread.java:112)
+[18:15:09] [Server thread/WARN]: 	at autosaveworld.utils.SchedulerUtils$1.run(SchedulerUtils.java:45)
+[18:15:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53)
+[18:15:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:690)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555)
+[18:15:09] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:844)
+[18:15:09] [Server thread/WARN]: java.io.IOException: No space left on device
+[18:15:09] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+[18:15:09] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:319)
+[18:15:09] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.writeHeader(GZIPOutputStream.java:183)
+[18:15:09] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:95)
+[18:15:09] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:110)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(SourceFile:34)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.saveWorldData(WorldNBTStorage.java:120)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.ServerNBTManager.saveWorldData(SourceFile:45)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1084)
+[18:15:09] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1027)
+[18:15:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-1.1.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.6.2.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-2.0.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-2.-2.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.7.-1.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.7.5.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-1.0.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.4.2.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-2.2.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.2.1.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.6.7.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.6.-2.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.0.9.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.3.0.mca
+[23:32:08] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-4.3.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.0.0.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-2.3.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.5.4.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.0.10.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.2.2.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-3.0.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.1.-2.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.1.3.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.3.6.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-3.2.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-7.1.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-6.1.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.4.4.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-5.1.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.5.1.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.3.-2.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.5.6.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.3.4.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.4.8.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-2.1.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-4.-1.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.4.6.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.1.1.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.-6.3.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/region/r.6.-4.mca
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_-1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_7_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_4_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_-1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_8_-1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-1_3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_-5_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_7_7_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-2_4_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-3_2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_-4_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_4_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-2_5_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-2_-1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_6_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_-2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_10_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_-3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-7_1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_-2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-4_-2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-5_2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_7_6_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_0_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_8_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_5_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_5_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-3_3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_10_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_9_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_-1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_10_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_8_0_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_5_-2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_6_-1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_7_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-1_1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-3_-2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-4_1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_0_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_4_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-5_3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-2_2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_7_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-5_-2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_5_5_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_6_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-1_2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-1_0_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_5_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-4_-1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_-4_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_-3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_-1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-6_1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_5_-3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_4_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_0_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_-4_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-4_2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_1_2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-1_-3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_-4_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_0_2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_3_9_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-2_1_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_7_0_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_-4_3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_-2_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_5_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_2_0_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/mcmmo_regions/mcmmo_4_-3_.mcm
+[23:32:09] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world/[23:32:10] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world_nether/mcmmo_regions/mcmmo_-1_0_.mcm
+[23:32:10] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world_nether/mcmmo_regions/mcmmo_-1_-1_.mcm
+[23:32:10] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world_nether/mcmmo_regions/mcmmo_0_0_.mcm
+[23:32:10] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world_nether/session.lock
+[23:32:10] [AutoSaveWorld AutoBackupThread/WARN]: [AutoSaveWorld] Failed to backup file: /root/spigot/./world_nether/level.dat_old
+[23:34:11] [AutoSaveWorld AutoBackupThread/INFO]: [0;34;1mAutoBackup Complete[m
+[23:39:49] [Server thread/INFO]: [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[23:45:44] [Server thread/WARN]: java.io.IOException: No space left on device
+[23:45:44] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+[23:45:44] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:319)
+[23:45:44] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.writeHeader(GZIPOutputStream.java:183)
+[23:45:44] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:95)
+[23:45:44] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:110)
+[23:45:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(SourceFile:34)
+[23:45:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.saveWorldData(WorldNBTStorage.java:120)
+[23:45:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.ServerNBTManager.saveWorldData(SourceFile:45)
+[23:45:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1084)
+[23:45:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1027)
+[23:45:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:747)
+[23:45:44] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread.saveWorldNormal(AutoSaveThread.java:159)
+[23:45:44] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread.saveWorld(AutoSaveThread.java:150)
+[23:45:44] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread.access$000(AutoSaveThread.java:36)
+[23:45:44] [Server thread/WARN]: 	at autosaveworld.features.save.AutoSaveThread$2.run(AutoSaveThread.java:112)
+[23:45:44] [Server thread/WARN]: 	at autosaveworld.utils.SchedulerUtils$1.run(SchedulerUtils.java:45)
+[23:45:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53)
+[23:45:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
+[23:45:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:690)
+[23:45:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371)
+[23:45:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651)
+[23:45:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555)
+[23:45:44] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:844)
+[23:45:45] [Server thread/WARN]: java.io.IOException: No space left on device
+[23:45:45] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+[23:45:45] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:319)
+[23:45:45] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.writeHeader(GZIPOutputStream.java:183)
+[23:45:45] [Server thread/WARN]: 	at java.base/java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:95)
+[23:45:45] [Server thread/WARN]: 	at java.base/java.util.z

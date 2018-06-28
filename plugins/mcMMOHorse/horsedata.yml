@@ -1,0 +1,61 @@
+Global:
+  disable_banishment: false
+  banish_on_disable: true
+  disable_basegame_breeding: false
+  banish_on_player_quit: true
+  savetype: 2
+Horses:
+  thedubiousbean:
+    849e7b3c-6788-492e-a8be-ab27bde3ec44:
+      name: Caucasian
+      wrath: 0
+      agility: 0
+      swiftness: 8
+      vitality: 0
+      color: BLACK
+      isdead: false
+      godmode: true
+      powerlevel: 1
+      style: NONE
+      variant: HORSE
+      hassaddle: true
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SADDLE
+      - ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+  Glaedien:
+    d21acba3-48c2-4569-93d4-eebd41ca5b65:
+      name: Little The First
+      wrath: 10
+      agility: 196
+      swiftness: 461
+      vitality: 13
+      color: DARK_BROWN
+      isdead: false
+      godmode: false
+      powerlevel: 130
+      style: NONE
+      variant: HORSE
+      hassaddle: true
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SADDLE
+      - null
+    3c044c60-fd6d-43f8-89a9-401dbfa191e6:
+      name: Sprinkle Blossom
+      wrath: 0
+      agility: 0
+      swiftness: 12
+      vitality: 0
+      color: CHESTNUT
+      isdead: false
+      godmode: false
+      powerlevel: 2
+      style: WHITE
+      variant: HORSE
+      hassaddle: true
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SADDLE
+      - null
